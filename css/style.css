@@ -106,7 +106,7 @@ html.transition *:after {
 }
 
 header{
-  background-color: rgb(109, 108, 108);
+  background-color: rgb(145, 143, 143);
   max-width: 100%;
 }
 
@@ -135,7 +135,7 @@ header{
 .nav-links,
 .logo {
   text-decoration: none;
-  color: #F8B891;
+  color: black;
   font-weight: bold;
   font-family: 'Montserrat', sans-serif;
 }
@@ -162,7 +162,7 @@ header{
 }
 
 .logo:hover, .nav-links:hover {
-  color: #eec614;
+  color: rgb(196, 195, 195);
 }
 
 .active {
@@ -289,13 +289,13 @@ button a{
 /* Blur */
 .blur figure img {
 -webkit-filter: blur(3px);
-filter: blur(3px);
+filter: grayscale(100%);
 -webkit-transition: .3s ease-in-out;
 transition: .3s ease-in-out;
 }
 .blur figure:hover img {
 -webkit-filter: blur(0);
-filter: blur(0);
+filter: rgb(84, 84, 196);
 }
 
 #hr1{
@@ -875,7 +875,7 @@ input[type=submit]:hover {
 
 @media screen and (min-width: 900px) {
   header{
-    background-color: rgb(109, 108, 108);
+    background-color: rgb(145, 143, 143);
     max-width: 100%;
   }
 
@@ -922,7 +922,7 @@ input[type=submit]:hover {
   }
 
   .logo:hover, .nav-links:hover {
-      color: #eec614;
+      color: #fff;
   }
 
   label {
@@ -1000,7 +1000,7 @@ button a{
   position: absolute;
   width: 40px;
   margin-top: 600px;
-  margin-left: 930px;
+  margin-left: 945px;
   border-radius: 3px;
   max-width: 100%;
  }
@@ -1334,7 +1334,7 @@ to {
 .formations{
   position: relative;
   color: var(--color-text);
-  margin-left: 800px;
+  margin-left: 1000px;
   margin-top: 0px;
   font-size: 30px;
  }

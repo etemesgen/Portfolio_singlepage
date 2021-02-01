@@ -112,7 +112,7 @@
              cnfpformations.fr</a>
             </p> <br>
             <p>• Le Gamel Trophy, <br>
-             - Conception des cartes moteurs,
+            &nbsp&nbsp- Conception des cartes moteurs,
                        mettre en place un robot <br> qui suit une ligne pour une compétition.</p> <br>
             <p>• Réalisation d’un robot permettant de filmer <br> et envoyer les données sur internet.</p>
         </section>
@@ -145,19 +145,19 @@
      <section id="ccc">  
         <section id="curiosite">
             <h1 class="hvr-underline-from-center">C<strong>uriosité</strong></h1> 
-              <p>٠ La curiosité est ce qui m'as plongé dans le développement informatique.</p>
+              <p> La curiosité est ce qui m'as plongé dans le développement informatique.</p>
                 <img src="./asset/curious.jpg" alt="curiosity">
         </section>
   
         <section id="creativite">
             <h1 class="hvr-underline-from-center"><strong>Creativité</strong></h1> 
-              <p>٠ La creativité est ce qui me motive dans mon aventure de développeur. </p>
+              <p> La creativité est ce qui me motive dans mon aventure de développeur. </p>
             <br> <img src="./asset/creativity.png" alt="creativity">
         </section>
   
         <section id="concept">
             <h1 class="hvr-underline-from-center"><strong>C</strong>oncept</h1> 
-              <p>٠ Le concept est ce qui me passionne du développement informatique.</p>
+              <p> Le concept est ce qui me passionne du développement informatique.</p>
             <br> <img src="./asset/concept.png" alt="concept">
         </section>
       </section> 
