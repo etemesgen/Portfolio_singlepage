@@ -803,7 +803,7 @@ to {
 }
 
 input[type=text], select, textarea {
-  width: 50%;
+  width: 70%;
   padding: 12px;
   border: 1px solid grey;
   border-radius: 22px;
@@ -821,6 +821,7 @@ input[type=submit] {
   border: none;
   border-radius: 22px;
   cursor: pointer;
+  margin-left: 150px;
  }
 
 input[type=submit]:hover {
@@ -836,7 +837,7 @@ input[type=submit]:hover {
   border-radius: 5px;
   background-color: var(--bg-panel);
   padding: 20px;
-  margin-left: 10%;
+  margin-left: 17%;
   margin-top: 40px;
  }
 
@@ -1549,6 +1550,7 @@ input[type=submit] {
   border: none;
   border-radius: 22px;
   cursor: pointer;
+  margin-left: 300px;
  }
 
 input[type=submit]:hover {

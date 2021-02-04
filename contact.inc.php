@@ -15,7 +15,7 @@
      echo "You're message have been sent"; 
 
      mail($mailTo, $text, $headers);
-     header("Location: main.inc.php?mailsend");
+     header("Location: index.php?mailsend");
     }
 }
       

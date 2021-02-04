@@ -1,50 +1,50 @@
 <section class="para">
-        <p>Edomiyas Temesgen<br>&nbsp&nbsp&nbsp&nbsp&nbsp un passionné de la <strong>Tech</strong> !</p>
-    </section>  
+    <p>Edomiyas Temesgen<br>&nbsp&nbsp&nbsp&nbsp&nbsp un passionné de la <strong>Tech</strong> !</p>
+</section>  
 
-    <section class="me">
-        <button class="hvr-float-shadow"><a href="#profil">M<span>E</span>.</a></button>
-    </section>
+<section class="me">
+    <button class="hvr-float-shadow"><a href="#profil">M<span>E</span>.</a></button>
+</section>
 
-    <section class="photo">
-        <a href="#profil"><img src="./asset/me3.jpg" width="100%" alt="photo"></a>
-    </section>
+<section class="photo">
+    <a href="#profil"><img src="./asset/me3.jpg" width="100%" alt="photo"></a>
+</section>
 
-    <section class="linkedin">
-        <a href="https://www.linkedin.com/in/edomiyas-temesgen-16ba01173/" class="blur" target="_blank"><figure><img src="./asset/linkedIn.png" alt="linkedin"></figure></a>
-    </section>
+<section class="linkedin">
+    <a href="https://www.linkedin.com/in/edomiyas-temesgen-16ba01173/" class="blur" target="_blank"><figure><img src="./asset/linkedIn.png" alt="linkedin"></figure></a>
+</section>
 
-    <section class="github">
-        <a href="https://github.com/etemesgen" class="blur" target="_blank"><figure><img src="./asset/GitHub2.jpg" alt="github"></figure></a>
-    </section>
+<section class="github">
+    <a href="https://github.com/etemesgen" class="blur" target="_blank"><figure><img src="./asset/GitHub2.jpg" alt="github"></figure></a>
+</section>
 
     <section id="hr1">
         <hr>
     </section>
 
- <section id="profil">
+<section id="profil">
     <h1 class="hvr-underline-from-center">A propos <strong>de moi</strong></h1>
- </section>
+</section>
 
- <section class="profil_desc">
-     <p>Edomiyas Temesgen. 20ans. Je suis un étudiant en développement informatique.</p>
+<section class="profil_desc">
+    <p>Edomiyas Temesgen. 20ans. Je suis un étudiant en développement informatique.</p>
      <br>
-     <p>Un passionné de développement web et mobile.</p>
+    <p>Un passionné de développement web et mobile.</p>
      <br>
-     <p>Mon objectif est de devenir un développeur full-stack. Mais plus précieusement développeur d'application mobile...</p>
- </section>
+    <p>Mon objectif est de devenir un développeur full-stack. Mais plus précieusement développeur d'application mobile...</p>
+</section>
 
- <section class="img1">
+<section class="img1">
     <img src="./asset/Programming-amico.png" alt="img1">
- </section>
+</section>
 
 <section class="hobbies">
     <p>&#183; Mes centres d'intérêt sont le football, la musculation, musique et films.</p>
 </section>
 
-<section id="hr2">
-    <hr>
- </section>
+     <section id="hr2">
+        <hr>
+     </section>
 
  <br>
   <br>
@@ -55,7 +55,7 @@
        <br>
 
 <section id="cv">
-    <h1 class="hvr-bounce-in ">Cirriculum vitae</h1>
+   <h1 class="hvr-bounce-in ">Cirriculum vitae</h1>
 </section>
  
           <br>
