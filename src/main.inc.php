@@ -7,15 +7,15 @@
 </section>
 
 <section class="photo">
-    <a href="#profil"><img src="./asset/me3.jpg" width="100%" alt="photo"></a>
+    <a href="#profil"><img src="./asset/me3.jpg" width="100%" alt="photo" loading="lazy"></a>
 </section>
 
 <section class="linkedin">
-    <a href="https://www.linkedin.com/in/edomiyas-temesgen-16ba01173/" class="blur" target="_blank"><figure><img src="./asset/linkedIn.png" alt="linkedin"></figure></a>
+    <a href="https://www.linkedin.com/in/edomiyas-temesgen-16ba01173/" class="blur" target="_blank"><figure><img src="./asset/linkedIn.png" alt="linkedin" loading="lazy"></figure></a>
 </section>
 
 <section class="github">
-    <a href="https://github.com/etemesgen" class="blur" target="_blank"><figure><img src="./asset/GitHub2.jpg" alt="github"></figure></a>
+    <a href="https://github.com/etemesgen" class="blur" target="_blank"><figure><img src="./asset/GitHub2.jpg" alt="github" loading="lazy"></figure></a>
 </section>
 
     <section id="hr1">
@@ -35,7 +35,7 @@
 </section>
 
 <section class="img1">
-    <img src="./asset/Programming-amico.png" alt="img1">
+    <img src="./asset/Programming-amico.png" alt="img1" loading="lazy">
 </section>
 
 <section class="hobbies">
@@ -64,10 +64,10 @@
     <br>       
 
 
-    <section class="chart"><img src="./asset/html.png" alt="html"></section> 
-    <section class="chart2"><img src="./asset/css.png" alt="css"></section>
-    <section class="chart3"><img src="./asset/php.png" alt="php"></section>
-    <section class="chart4"><img src="./asset/mysql.png" alt="mysql"></section>
+    <section class="chart"><img src="./asset/html.png" alt="html" loading="lazy"></section> 
+    <section class="chart2"><img src="./asset/css.png" alt="css" loading="lazy"></section>
+    <section class="chart3"><img src="./asset/php.png" alt="php" loading="lazy"></section>
+    <section class="chart4"><img src="./asset/mysql.png" alt="mysql" loading="lazy"></section>
 
     <div class="circle-big">
      <div class="text">70%</div>
@@ -146,19 +146,19 @@
         <section id="curiosite">
             <h1 class="hvr-underline-from-center">C<strong>uriosité</strong></h1> 
               <p> La curiosité est ce qui m'as plongé dans le développement informatique.</p>
-                <img src="./asset/curious.jpg" alt="curiosity">
+                <img src="./asset/curious.jpg" alt="curiosity" loading="lazy">
         </section>
   
         <section id="creativite">
             <h1 class="hvr-underline-from-center"><strong>Creativité</strong></h1> 
               <p> La creativité est ce qui me motive dans mon aventure de développeur. </p>
-            <br> <img src="./asset/creativity.png" alt="creativity">
+            <br> <img src="./asset/creativity.png" alt="creativity" loading="lazy">
         </section>
   
         <section id="concept">
             <h1 class="hvr-underline-from-center"><strong>C</strong>oncept</h1> 
               <p> Le concept est ce qui me passionne du développement informatique.</p>
-            <br> <img src="./asset/concept.png" alt="concept">
+            <br> <img src="./asset/concept.png" alt="concept" loading="lazy">
         </section>
       </section> 
 
@@ -171,17 +171,17 @@
         <section id="portfolio"></section>
           <h1 class="hvr-underline-from-center">P<strong>ortfolio</strong></h1>
           <section class="wordpress">
-             <a href="https://www.cnfpformations.fr/wordpress/" target="_blank"><img src="./asset/cnfp.PNG" alt="cnfp" ></a>
+             <a href="https://www.cnfpformations.fr/wordpress/" target="_blank"><img src="./asset/cnfp.PNG" alt="cnfp" loading="lazy"></a>
              <p>Wordpress <i class="fab fa-wordpress"></i></p>
           </section>
            
           <section class="hcj">
-             <a href="https://time-display-edo.netlify.app/" target="_blank" ><img src="./asset/timeDisplay.PNG" alt="timeDisplay"></a>
+             <a href="https://time-display-edo.netlify.app/" target="_blank" ><img src="./asset/timeDisplay.PNG" alt="timeDisplay" loading="lazy"></a>
              <p>Html <i class="fab fa-html5"></i>, CSS <i class="fab fa-css3-alt"></i>, JavaScript <i class="fab fa-js-square"></i></p>
           </section>
 
           <section class="hcjpm">
-             <a href="https://github.com/etemesgen/PPE_France_Montagnes_Dynamique" target="_blank"><img src="./asset/FranceMontagne.PNG" alt="francemontagne"></a>
+             <a href="https://github.com/etemesgen/PPE_France_Montagnes_Dynamique" target="_blank"><img src="./asset/FranceMontagne.PNG" alt="francemontagne" loading="lazy"></a>
              <p>HTML <i class="fab fa-html5"></i>, CSS <i class="fab fa-css3-alt"></i>, JavaScript <i class="fab fa-js-square"></i>, PHP <i class="fab fa-php"></i>, mySQL <i class="fas fa-database"></i></p>
           </section>
       </div>

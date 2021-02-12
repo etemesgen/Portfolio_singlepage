@@ -10,7 +10,7 @@
     </section>
 
     <section class="logo">
-     <img src="./asset/Edomiyas_logo.PNG" width="120px" alt="logo">
+     <img src="./asset/Edomiyas_logo.PNG" width="120px" alt="logo" loading="lazy">
     </section>
 
     <nav class="navbar">
