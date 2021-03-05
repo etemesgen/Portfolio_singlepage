@@ -29,6 +29,7 @@ html {
 
 body {
   background-color: var(--bg-panel);
+  width: 100%;
 }
 
 /* Underline From Center */
@@ -125,7 +126,7 @@ html.transition *:after {
 
 header {
   background-color: rgb(145, 143, 143);
-  max-width: 100%;
+  width: 100%;
 }
 
 #colorblack {
@@ -193,7 +194,7 @@ header {
   font-family: "Montserrat", sans-serif;
   font-size: 32px;
   margin-top: 100px;
-  margin-left: 152px;
+  margin-left: 50px;
   font-weight: bold;
   color: var(--color-text);
 }
@@ -205,7 +206,7 @@ strong {
 .me {
   position: absolute;
   font-size: 20px;
-  margin: 230px 0px 0px 330px;
+  margin: 230px 0px 0px 220px;
 }
 
 button {
@@ -292,7 +293,7 @@ button a {
   border: 0px solid;
   border-radius: 50%;
   line-height: 25px;
-  margin-left: 200px;
+  margin-left: 100px;
   margin-top: 360px;
   width: 340px;
   height: 340px;
@@ -302,7 +303,7 @@ button a {
   position: absolute;
   width: 25px;
   margin-top: 750px;
-  margin-left: 330px;
+  margin-left: 220px;
   border: 0px solid;
   border-radius: 3px;
   max-width: 100%;
@@ -312,7 +313,7 @@ button a {
   position: absolute;
   width: 25px;
   margin-top: 750px;
-  margin-left: 380px;
+  margin-left: 270px;
   border: 0px solid;
   border-radius: 3px;
   max-width: 80%;
@@ -332,7 +333,7 @@ button a {
 
 #hr1 {
   margin-top: 800px;
-  margin-left: 180px;
+  margin-left: 120px;
   width: 50%;
 }
 
@@ -371,12 +372,12 @@ button a {
 
 #hr2 {
   margin-top: 50px;
-  margin-left: 170px;
+  margin-left: 130px;
   width: 50%;
 }
 
 #cv {
-  margin-left: 120px;
+  margin-left: 30px;
   font-size: 27px;
   color: var(--color-text);
 }
@@ -827,7 +828,7 @@ button a {
 #contact h1 {
   /* position: absolute;*/
   display: inline-block;
-  margin: 100px 0px 0px 50px;
+  margin: 100px 0px 0px 200px;
   font-size: 40px;
 }
 
@@ -903,11 +904,12 @@ footer {
 @media screen and (min-width: 900px) {
   header {
     background-color: rgb(145, 143, 143);
-    max-width: 100%;
+    width: 100%;
   }
 
   #colorblack {
     background-color: var(--color-text);
+    max-width: 100%;
   }
 
   .navbar {
@@ -1572,7 +1574,7 @@ footer {
     border: none;
     border-radius: 22px;
     cursor: pointer;
-    margin-left: 300px;
+    margin-left: 180px;
   }
 
   input[type="submit"]:hover {
