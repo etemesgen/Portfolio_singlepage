@@ -193,6 +193,7 @@
       <section id="contact"> 
           <h1 id="contactez_moi" class="hvr-underline-from-center"><strong>Contactez</strong> moi</h1>
       </section> 
+      
       <div class="container">
           <form name= "contactform" action="<?php echo $_SERVER['PHP_SELF'] ?>" method="post">
             <input type="text" id="fname" name="firstname" placeholder="Votre prénom...">
