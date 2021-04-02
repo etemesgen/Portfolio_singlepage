@@ -853,7 +853,7 @@ input[type="submit"] {
   border: none;
   border-radius: 22px;
   cursor: pointer;
-  margin-left: 150px;
+  margin-left: 170px;
 }
 
 input[type="submit"]:hover {
@@ -1549,7 +1549,7 @@ footer {
 
   #contact h1 {
     position: absolute;
-    margin: 1190px 0px 0px 500px;
+    margin: 1190px 0px 0px 800px;
     font-size: 50px;
   }
 
@@ -1574,7 +1574,7 @@ footer {
     border: none;
     border-radius: 22px;
     cursor: pointer;
-    margin-left: 180px;
+    margin-left: 300px;
   }
 
   input[type="submit"]:hover {

@@ -206,7 +206,10 @@
           </form>
       </div>
 
-
+<!--      <?php 
+      //  include_once("./src/contact.inc.php");
+      ?>
+-->
       <section id="totop">
         <button onclick="topFunction()" id="myBtn" title="Go to top"><i style='font-size:30px; color: black;' class='fas'>&#xf102;</i></button>
       </section>
