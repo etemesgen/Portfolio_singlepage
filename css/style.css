@@ -864,6 +864,16 @@ input[type="submit"]:hover {
   transition: all 0.2s ease-out;
 }
 
+#warning {
+  color: #d64518;
+  text-align: center;
+}
+
+#success {
+  color: #f8b891;
+  text-align: center;
+}
+
 .container {
   border-radius: 5px;
   background-color: var(--bg-panel);
@@ -1549,7 +1559,7 @@ footer {
 
   #contact h1 {
     position: absolute;
-    margin: 1190px 0px 0px 800px;
+    margin: 1190px 0px 0px 780px;
     font-size: 50px;
   }
 
@@ -1583,6 +1593,16 @@ footer {
     -moz-transition: 0.2s ease-out;
     -o-transition: 0.2s ease-out;
     transition: all 0.2s ease-out;
+  }
+
+  #warning {
+    color: #d64518;
+    text-align: center;
+  }
+
+  #success {
+    color: #f8b891;
+    text-align: center;
   }
 
   .container {

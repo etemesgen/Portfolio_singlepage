@@ -195,7 +195,7 @@
       </section> 
       
       <div class="container">
-          <form name= "contactform" action="<?php echo $_SERVER['PHP_SELF'] ?>" method="post">
+        <form action="<?php echo $_SERVER['PHP_SELF'] ?>" method="POST">
             <input type="text" id="fname" name="firstname" placeholder="Votre prénom...">
               <br>
             <input type="text" id="lname" name="lastname" placeholder="Votre nom...">
@@ -206,10 +206,10 @@
           </form>
       </div>
 
-<!--      <?php 
-      //  include_once("./src/contact.inc.php");
+     <?php 
+        include_once("./src/contact.inc.php");
       ?>
--->
+
       <section id="totop">
         <button onclick="topFunction()" id="myBtn" title="Go to top"><i style='font-size:30px; color: black;' class='fas'>&#xf102;</i></button>
       </section>
