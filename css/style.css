@@ -7,6 +7,7 @@ html {
   font-size: 62.5%;
 }
 body {
+  background-color: var(--bg-panel);
   font: 1.6rem sans-serif;
   margin: 0;
 }
@@ -25,11 +26,6 @@ html {
   background-color: rgb(255, 255, 255);
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
-}
-
-body {
-  background-color: var(--bg-panel);
-  width: 100%;
 }
 
 /* Underline From Center */
@@ -144,6 +140,10 @@ header {
   background-image: var(--bg-panel);
   padding-bottom: 10px;
   margin: auto;
+}
+
+.navbar ul {
+  max-width: 100%;
 }
 
 .main-nav {
@@ -289,6 +289,7 @@ button a {
 }
 
 .photo img {
+  max-width: 100%;
   position: absolute;
   border: 0px solid;
   border-radius: 50%;
@@ -925,11 +926,12 @@ footer {
   .navbar {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 0;
-    height: 70px;
     align-items: center;
-    margin: -90px 0px 0px 1000px;
-    padding-bottom: 20px;
+  }
+
+  .navbar ul {
+    max-width: 100%;
+    margin: -100px 0px 0px 500px;
   }
 
   .main-nav {
@@ -973,7 +975,7 @@ footer {
     background: #ebe1f7;
     float: right;
     border-radius: 100px;
-    margin-left: 400px;
+    margin-left: 300px;
     margin-top: 52px;
   }
 
@@ -986,22 +988,22 @@ footer {
   .para {
     position: absolute;
     font-family: "Montserrat", sans-serif;
-    font-size: 40px;
-    margin-top: 200px;
-    margin-left: 400px;
+    font-size: 30px;
+    margin-top: 130px;
+    margin-left: 300px;
     font-weight: bold;
     color: var(--color-text);
   }
 
   .me {
     position: absolute;
-    font-size: 20px;
-    margin: 340px 0px 0px 650px;
+    margin: 240px 0px 0px 430px;
   }
 
   button {
-    width: 130px;
-    padding: 10px;
+    max-width: 100%;
+    width: 100px;
+    height: 50px;
     border: 2px solid grey;
     border-radius: 10px;
     background-color: grey;
@@ -1010,7 +1012,7 @@ footer {
   button a {
     color: #f8b891;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
@@ -1018,59 +1020,57 @@ footer {
 
   .me span {
     color: var(--bg-panel);
-    font-size: 30px;
+    font-size: 25px;
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
   }
 
-  .photo img {
-    position: absolute;
+  .photo {
+    max-width: 100%;
+    margin: -300px 0px 0px 770px;
+  }
+
+  #profil img {
     border: 0px solid;
     border-radius: 50%;
     line-height: 25px;
-    margin-left: 1100px;
-    margin-top: 100px;
     width: 400px;
     height: 400px;
   }
 
   .linkedin img {
-    position: absolute;
-    width: 40px;
-    margin-top: 600px;
-    margin-left: 945px;
-    border-radius: 3px;
     max-width: 100%;
+    width: 40px;
+    margin-top: 720px;
+    margin-left: 600px;
+    border-radius: 3px;
   }
 
   .github img {
+    max-width: 100%;
     position: absolute;
     width: 39.3px;
-    margin-top: 600px;
-    margin-left: 1015px;
+    margin-top: 722px;
+    margin-left: 680px;
     border-radius: 3px;
-    max-width: 80%;
   }
 
   #hr1 {
-    margin-top: 700px;
-    margin-left: 500px;
+    max-width: 100%;
+    margin-top: 785px;
+    margin-left: 350px;
     width: 50%;
   }
 
-  #profil {
-    position: absolute;
-    margin-top: 230px;
-    margin-left: 780px;
-    font-size: 30px;
+  #profil h1 {
+    text-align: center;
+    font-size: 45px;
     color: var(--color-text);
     font-family: "Montserrat", sans-serif;
   }
 
-  .profil_desc {
-    position: absolute;
-    margin-top: 340px;
-    margin-left: 230px;
+  .profil_desc p {
+    text-align: center;
     font-size: 27px;
     color: var(--color-text);
     font-family: "Montserrat", sans-serif;
@@ -1078,14 +1078,14 @@ footer {
   }
 
   .img1 img {
-    position: absolute;
+    max-width: 100%;
     width: 400px;
-    margin: 530px 0px 0px 800px;
+    margin: 50px 0px 0px 500px;
   }
 
-  .hobbies {
-    position: absolute;
-    margin: 1000px 0px 0px 550px;
+  .hobbies p {
+    margin: 50px 0px 0px 50px;
+    text-align: center;
     font-weight: bold;
     font-size: 25px;
     font-family: "Montserrat", sans-serif;
@@ -1093,70 +1093,62 @@ footer {
   }
 
   #hr2 {
-    margin-top: 1100px;
-    margin-left: 500px;
-    width: 100vh;
+    max-width: 100%;
+    margin: 40px 0px 0px 400px;
   }
 
-  #cv {
-    margin-left: 720px;
-    margin-top: 0px;
-    font-size: 30px;
+  #cv h1 {
+    text-align: center;
+    margin-left: 500px;
     color: var(--color-text);
   }
 
   .chart {
-    position: absolute;
     display: inline-block;
-    margin: -50px 0px 0px 393px;
+    margin: -50px 0px 0px 200px;
     color: #d64518;
   }
 
   .chart img {
-    width: 130px;
+    max-width: 100%;
   }
 
   .chart2 {
-    position: absolute;
     display: inline-block;
-    margin: -50px 0px 0px 712px;
+    margin: -50px 0px 0px 450px;
     color: #1837e6;
   }
 
   .chart2 img {
-    width: 130px;
+    max-width: 100%;
   }
 
   .chart3 {
-    position: absolute;
     display: inline-block;
-    margin: -10px 0px 0px 1022px;
+    margin: -15px 0px 0px 730px;
     color: #5300da;
   }
 
   .chart3 img {
-    width: 130px;
+    max-width: 100%;
   }
 
   .chart4 {
-    position: absolute;
     display: inline-block;
-    margin: -40px 0px 0px 1320px;
+    margin: -40px 0px 0px 1000px;
     color: #b9afaf;
   }
 
   .chart4 img {
-    width: 170px;
+    max-width: 100%;
   }
 
   /*Skill circle bars*/
   @import url(https://fonts.googleapis.co/css?family=montserrat:600,400,300);
 
   .circle-big {
-    position: relative;
-    width: 114px;
-    height: 114px;
-    margin: 100px auto 25px 400px;
+    max-width: 100%;
+    margin: 100px 0px 25px 200px;
   }
 
   .circle-big svg {
@@ -1203,10 +1195,8 @@ footer {
   }
 
   .circle-big2 {
-    position: relative;
-    width: 114px;
-    height: 114px;
-    margin: -135px auto 25px 720px;
+    max-width: 100%;
+    margin: 100px 0px 25px 450px;
   }
 
   .circle-big2 svg {
@@ -1253,10 +1243,8 @@ footer {
   }
 
   .circle-big3 {
-    position: relative;
-    width: 114px;
-    height: 114px;
-    margin: -140px auto 25px 1030px;
+    max-width: 100%;
+    margin: 100px 0px 25px 730px;
   }
 
   .circle-big3 svg {
@@ -1303,10 +1291,8 @@ footer {
   }
 
   .circle-big4 {
-    position: relative;
-    width: 114px;
-    height: 114px;
-    margin: -140px auto 25px 1340px;
+    max-width: 100%;
+    margin: 100px 0px 25px 1010px;
   }
 
   .circle-big4 svg {
@@ -1353,23 +1339,34 @@ footer {
   }
 
   .projet {
-    position: absolute;
     color: var(--color-text);
-    margin-left: 100px;
+    margin-left: 190px;
     font-size: 30px;
-    margin-top: 0px;
+    margin-top: 300px;
+  }
+
+  .projet h1 {
+    margin-left: -40px;
   }
 
   .projet p {
     font-size: 20px;
   }
 
+  #projetimg img {
+    max-width: 100%;
+    width: 300px;
+    margin: -250px 0px 0px 850px;
+  }
+
   .formations {
-    position: relative;
     color: var(--color-text);
-    margin-left: 1000px;
-    margin-top: 0px;
+    margin-left: 300px;
     font-size: 30px;
+  }
+
+  .formations h1 {
+    margin-left: -150px;
   }
 
   .formations p {
@@ -1381,7 +1378,7 @@ footer {
   }
 
   .formation {
-    margin: -80px 0px 0px 160px;
+    margin: -70px 0px 0px 160px;
   }
 
   .date2 {
@@ -1409,21 +1406,18 @@ footer {
   }
 
   #hr3 {
-    margin-top: 100px;
-    margin-left: 500px;
-    width: 50%;
+    max-width: 100%;
+    margin: 40px 0px 0px 400px;
   }
 
   #curiosite {
-    position: absolute;
-    margin-top: 100px;
-    margin-left: 200px;
+    margin: 50px 0px 0px 80px;
     font-size: 40px;
     color: var(--color-text);
   }
 
   #curiosite p {
-    margin: 20px 0px 0px 0px;
+    margin: 20px 0px 0px 70px;
     font-size: 30px;
     color: var(--color-text);
     font-family: "Montserrat", sans-serif;
@@ -1431,21 +1425,15 @@ footer {
   }
 
   #curiosite img {
-    margin: 30px 0px 0px 100px;
-    width: 250px;
+    max-width: 100%;
+    margin: 30px 0px 0px 500px;
     border-radius: 5px;
   }
 
   #creativite {
-    position: absolute;
-    margin-left: 800px;
+    margin: 50px 0px 0px 60px;
     font-size: 40px;
     color: var(--color-text);
-    margin-top: 380px;
-  }
-
-  #creativite h1 {
-    margin-left: 640px;
   }
 
   #creativite p {
@@ -1457,15 +1445,14 @@ footer {
   }
 
   #creativite img {
-    margin: 0px 0px 0px 500px;
+    max-width: 100%;
+    margin: 0px 0px 0px 450px;
   }
 
   #concept {
-    position: absolute;
-    margin-left: 200px;
+    margin: 50px 0px 0px 85px;
     font-size: 40px;
     color: var(--color-text);
-    margin-top: 700px;
   }
 
   #concept p {
@@ -1476,91 +1463,69 @@ footer {
     font-weight: bold;
   }
 
+  #concept img {
+    max-width: 100%;
+    margin: 0px 0px 0px 350px;
+  }
+
   #hr4 {
-    position: absolute;
-    margin-top: 1300px;
-    margin-left: 500px;
-    width: 50%;
+    max-width: 100%;
+    margin: 40px 0px 0px 350px;
   }
 
   .portfolio {
-    margin: 1400px 0px 0px 0px;
-    text-align: center;
-    width: 100%;
     display: inline-block;
-  }
-
-  .portfolio img {
-    display: inline-block;
-    border-radius: 10px;
-  }
-
-  .portfolio p {
-    color: var(--color-text);
-    background-color: var(--bg-panel);
-    width: 20%;
-    font-family: "Montserrat", sans-serif;
-    border-radius: 5px;
   }
 
   .portfolio h1 {
-    position: relative;
-    margin: -120px 100px 0px 140px;
+    text-align: center;
     font-size: 40px;
   }
 
   .wordpress img {
-    position: absolute;
+    max-width: 100%;
     display: inline-block;
-    width: 900px;
-    margin: 0px 0px 0px -950px;
+    margin: 0px 0px 0px -700px;
   }
 
   .wordpress p {
-    position: absolute;
-    margin: 431px 0px 0px 290px;
-    font-size: 30px;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 0px 0px 0px 80px;
   }
 
   .hcj img {
-    position: absolute;
+    max-width: 100%;
     display: inline-block;
-    width: 900px;
-    margin: 500px 0px 0px -450px;
+    margin: -350px 0px 800px 700px;
   }
 
   .hcj p {
-    position: absolute;
-    margin: 935px 0px 0px 800px;
-    width: 22%;
-    font-size: 30px;
+    font-weight: bold;
+    font-size: 25px;
+    margin: -800px 0px 0px 800px;
   }
 
   .hcjpm img {
-    position: absolute;
+    max-width: 100%;
     display: inline-block;
-    width: 930px;
-    margin: -30px 0px 0px 60px;
+    margin: 0px 0px 0px -700px;
   }
 
   .hcjpm p {
-    position: absolute;
-    margin: 395px 0px 0px 1170px;
-    font-size: 30px;
-    width: 35%;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 0px 0px 0px 80px;
   }
 
   #hr5 {
-    position: absolute;
-    margin-top: 1100px;
-    margin-left: 500px;
-    width: 50%;
+    max-width: 100%;
+    margin: 40px 0px 0px 350px;
   }
 
   #contact h1 {
-    position: absolute;
-    margin: 1190px 0px 0px 780px;
-    font-size: 50px;
+    font-size: 40px;
+    margin-left: 500px;
   }
 
   input[type="text"],
@@ -1575,16 +1540,18 @@ footer {
     margin-bottom: 16px;
     resize: vertical;
     font-style: italic;
+    font-weight: bold;
   }
 
   input[type="submit"] {
+    max-width: 100%;
     background-color: #303030;
     color: white;
     padding: 12px 20px;
     border: none;
     border-radius: 22px;
     cursor: pointer;
-    margin-left: 300px;
+    margin-left: 180px;
   }
 
   input[type="submit"]:hover {
@@ -1610,7 +1577,6 @@ footer {
     background-color: var(--bg-panel);
     padding: 20px;
     margin-left: 30%;
-    margin-top: 1300px;
   }
 
   footer {
