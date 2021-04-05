@@ -83,7 +83,7 @@ label {
   float: right;
   border-radius: 100px;
   position: absolute;
-  margin-left: 260px;
+  margin-left: 210px;
   margin-top: 60px;
 }
 
@@ -190,11 +190,10 @@ header {
 }
 
 .para {
-  position: absolute;
   font-family: "Montserrat", sans-serif;
-  font-size: 32px;
+  font-size: 30px;
   margin-top: 100px;
-  margin-left: 50px;
+  margin-left: 40px;
   font-weight: bold;
   color: var(--color-text);
 }
@@ -204,9 +203,8 @@ strong {
 }
 
 .me {
-  position: absolute;
   font-size: 20px;
-  margin: 230px 0px 0px 220px;
+  margin: 30px 0px 0px 200px;
 }
 
 button {
@@ -290,31 +288,28 @@ button a {
 
 .photo img {
   max-width: 100%;
-  position: absolute;
   border: 0px solid;
   border-radius: 50%;
   line-height: 25px;
-  margin-left: 100px;
-  margin-top: 360px;
-  width: 340px;
-  height: 340px;
+  margin-left: 75px;
+  margin-top: 50px;
+  width: 300px;
+  height: 300px;
 }
 
 .linkedin img {
-  position: absolute;
-  width: 25px;
-  margin-top: 750px;
-  margin-left: 220px;
+  max-width: 100%;
+  width: 30px;
+  margin-top: 40px;
+  margin-left: 200px;
   border: 0px solid;
   border-radius: 3px;
-  max-width: 100%;
 }
 
 .github img {
-  position: absolute;
-  width: 25px;
-  margin-top: 750px;
-  margin-left: 270px;
+  max-width: 100%;
+  width: 30px;
+  margin: -33.5px 0px 34px 270px;
   border: 0px solid;
   border-radius: 3px;
   max-width: 80%;
@@ -333,15 +328,16 @@ button a {
 }
 
 #hr1 {
-  margin-top: 800px;
-  margin-left: 120px;
+  max-width: 100%;
+  margin-top: 40px;
+  margin-left: 130px;
   width: 50%;
 }
 
 #profil {
   text-align: center;
   margin-left: 30px;
-  font-size: 30px;
+  font-size: 25px;
   color: var(--color-text);
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
@@ -355,12 +351,13 @@ button a {
   font-size: 22px;
   color: var(--color-text);
   font-family: "Montserrat", sans-serif;
-  font-weight: normal;
+  font-weight: bold;
 }
 
 .img1 img {
-  width: 32%;
-  margin: 28px 0px 0px 250px;
+  max-width: 100%;
+  width: 40%;
+  margin: 28px 0px 0px 150px;
 }
 
 .hobbies {
@@ -369,16 +366,18 @@ button a {
   font-size: 18px;
   font-weight: 50px;
   color: var(--color-text);
+  font-weight: bold;
 }
 
 #hr2 {
-  margin-top: 50px;
+  max-width: 100%;
+  margin-top: 40px;
   margin-left: 130px;
   width: 50%;
 }
 
 #cv {
-  margin-left: 30px;
+  margin-left: 15px;
   font-size: 27px;
   color: var(--color-text);
 }
@@ -408,41 +407,42 @@ button a {
 }
 
 .chart {
-  position: absolute;
-  margin: -60px 0px 0px 180px;
+  color: #d64518;
 }
 
 .chart img {
+  margin: -60px 0px 0px 180px;
+  max-width: 100%;
   width: 120px;
 }
 
 .chart2 {
-  position: absolute;
-  margin: 210px 0px 0px 180px;
   color: #1837e6;
 }
 
 .chart2 img {
+  margin: 140px 0px 0px 180px;
+  max-width: 100%;
   width: 120px;
 }
 
 .chart3 {
-  position: absolute;
-  margin: 510px 0px 0px 180px;
   color: #5300da;
 }
 
 .chart3 img {
+  margin: 140px 0px 0px 180px;
+  max-width: 100%;
   width: 120px;
 }
 
 .chart4 {
-  position: absolute;
-  margin: 730px 0px 0px 170px;
   color: #b9afaf;
 }
 
 .chart4 img {
+  margin: 140px 0px 0px 160px;
+  max-width: 100%;
   width: 150px;
 }
 
@@ -453,7 +453,7 @@ button a {
   position: absolute;
   width: 114px;
   height: 114px;
-  margin: 70px auto 25px 280px;
+  margin: -710px auto 25px 250px;
 }
 
 .circle-big svg {
@@ -503,7 +503,7 @@ button a {
   position: absolute;
   width: 114px;
   height: 114px;
-  margin: 360px auto 25px 280px;
+  margin: -450px auto 25px 250px;
 }
 
 .circle-big2 svg {
@@ -553,7 +553,7 @@ button a {
   position: absolute;
   width: 114px;
   height: 114px;
-  margin: 610px auto 25px 280px;
+  margin: -225px auto 25px 250px;
 }
 
 .circle-big3 svg {
@@ -603,7 +603,7 @@ button a {
   position: absolute;
   width: 114px;
   height: 114px;
-  margin: 850px auto 25px 280px;
+  margin: -10px auto 25px 250px;
 }
 
 .circle-big4 svg {
@@ -652,19 +652,25 @@ button a {
 .projet {
   color: var(--color-text);
   margin-left: 100px;
-  font-size: 30px;
-  margin-top: 1080px;
+  font-size: 25px;
+  margin-top: 180px;
 }
 
 .projet p {
   font-size: 20px;
+  margin-left: -50px;
+}
+
+#projetimg img {
+  max-width: 100%;
+  width: 300px;
+  margin: 50px 0px 0px 70px;
 }
 
 .formations {
   color: var(--color-text);
   margin-left: 100px;
-  margin-top: 0px;
-  font-size: 30px;
+  font-size: 25px;
   margin-top: 80px;
 }
 
@@ -705,15 +711,16 @@ button a {
 }
 
 #hr3 {
+  max-width: 100%;
   margin-top: 40px;
-  margin-left: 170px;
+  margin-left: 130px;
   width: 50%;
 }
 
 #curiosite {
   margin-top: 10px;
   margin-left: 20px;
-  font-size: 40px;
+  font-size: 35px;
   color: var(--color-text);
 }
 
@@ -722,40 +729,41 @@ button a {
   font-size: 22px;
   color: var(--color-text);
   font-family: "Montserrat", sans-serif;
-  font-weight: normal;
+  font-weight: bold;
 }
 
 #curiosite img {
-  margin: 30px 0px 0px 130px;
+  margin: 30px 0px 0px 115px;
+  max-width: 100%;
   width: 200px;
   border-radius: 5px;
 }
 
 #creativite {
-  margin-left: 280px;
-  font-size: 40px;
+  font-size: 35px;
   color: var(--color-text);
 }
 
 #creativite h1 {
-  margin-left: 20px;
+  margin: 20px 0px 0px 20px;
 }
 
 #creativite p {
-  margin: 20px 0px 0px -150px;
+  margin: 20px 0px 0px 20px;
   font-size: 22px;
   color: var(--color-text);
   font-family: "Montserrat", sans-serif;
-  font-weight: normal;
+  font-weight: bold;
 }
 
 #creativite img {
-  margin: 0px 0px 0px -180px;
+  max-width: 100%;
+  margin: 0px 0px 0px 80px;
 }
 
 #concept {
-  margin-left: 20px;
-  font-size: 40px;
+  margin: 20px 0px 0px 20px;
+  font-size: 35px;
   color: var(--color-text);
 }
 
@@ -764,33 +772,34 @@ button a {
   font-size: 22px;
   color: var(--color-text);
   font-family: "Montserrat", sans-serif;
-  font-weight: normal;
+  font-weight: bold;
 }
 
 #concept img {
+  max-width: 100%;
   width: 500px;
 }
 
 #hr4 {
-  margin-top: 0px;
-  margin-left: 170px;
+  max-width: 100%;
+  margin-top: 40px;
+  margin-left: 130px;
   width: 50%;
 }
 
 .portfolio {
   margin: 170px 0px 0px 0px;
   text-align: center;
-  width: 100%;
   display: inline-block;
 }
 
 .portfolio h1 {
-  position: absolute;
-  margin: -110px 0px 0px -100px;
+  margin: -150px 0px 0px 0px;
   font-size: 40px;
 }
 
 .portfolio img {
+  max-width: 100%;
   display: inline-block;
   width: 600px;
   border-radius: 10px;
@@ -821,16 +830,16 @@ button a {
 }
 
 #hr5 {
-  margin-top: 50px;
-  margin-left: 170px;
+  max-width: 100%;
+  margin-top: 40px;
+  margin-left: 130px;
   width: 50%;
 }
 
 #contact h1 {
-  /* position: absolute;*/
   display: inline-block;
-  margin: 100px 0px 0px 200px;
-  font-size: 40px;
+  margin: 50px 0px 0px 120px;
+  font-size: 35px;
 }
 
 input[type="text"],
@@ -845,6 +854,7 @@ textarea {
   margin-bottom: 16px;
   resize: vertical;
   font-style: italic;
+  font-weight: bold;
 }
 
 input[type="submit"] {
@@ -854,7 +864,7 @@ input[type="submit"] {
   border: none;
   border-radius: 22px;
   cursor: pointer;
-  margin-left: 170px;
+  margin-left: 80px;
 }
 
 input[type="submit"]:hover {
@@ -892,6 +902,7 @@ footer {
 }
 
 #myBtn {
+  max-width: 100%;
   position: fixed;
   bottom: 10px;
   right: 30px;
@@ -1027,21 +1038,20 @@ footer {
 
   .photo {
     max-width: 100%;
-    margin: -300px 0px 0px 770px;
+    margin-left: 770px;
   }
 
-  #profil img {
+  .photo img {
+    margin-top: 40px;
     border: 0px solid;
     border-radius: 50%;
     line-height: 25px;
-    width: 400px;
-    height: 400px;
   }
 
   .linkedin img {
     max-width: 100%;
     width: 40px;
-    margin-top: 720px;
+    margin-top: 50px;
     margin-left: 600px;
     border-radius: 3px;
   }
@@ -1050,14 +1060,14 @@ footer {
     max-width: 100%;
     position: absolute;
     width: 39.3px;
-    margin-top: 722px;
+    margin-top: -43px;
     margin-left: 680px;
     border-radius: 3px;
   }
 
   #hr1 {
     max-width: 100%;
-    margin-top: 785px;
+    margin-top: 30px;
     margin-left: 350px;
     width: 50%;
   }
@@ -1094,53 +1104,55 @@ footer {
 
   #hr2 {
     max-width: 100%;
-    margin: 40px 0px 0px 400px;
+    margin-top: 30px;
+    margin-left: 350px;
+    width: 50%;
   }
 
   #cv h1 {
-    text-align: center;
     margin-left: 500px;
+    margin-top: 30px;
     color: var(--color-text);
   }
 
   .chart {
     display: inline-block;
-    margin: -50px 0px 0px 200px;
     color: #d64518;
   }
 
   .chart img {
     max-width: 100%;
+    margin: -50px 0px 0px 200px;
   }
 
   .chart2 {
     display: inline-block;
-    margin: -50px 0px 0px 450px;
     color: #1837e6;
   }
 
   .chart2 img {
     max-width: 100%;
+    margin: -50px 0px 0px 100px;
   }
 
   .chart3 {
     display: inline-block;
-    margin: -15px 0px 0px 730px;
     color: #5300da;
   }
 
   .chart3 img {
     max-width: 100%;
+    margin: 10px 0px 30px 110px;
   }
 
   .chart4 {
     display: inline-block;
-    margin: -40px 0px 0px 1000px;
     color: #b9afaf;
   }
 
   .chart4 img {
     max-width: 100%;
+    margin: 0px 0px 15px 105px;
   }
 
   /*Skill circle bars*/
@@ -1148,7 +1160,7 @@ footer {
 
   .circle-big {
     max-width: 100%;
-    margin: 100px 0px 25px 200px;
+    margin: 30px 0px 25px 200px;
   }
 
   .circle-big svg {
@@ -1196,7 +1208,7 @@ footer {
 
   .circle-big2 {
     max-width: 100%;
-    margin: 100px 0px 25px 450px;
+    margin: 30px 0px 25px 425px;
   }
 
   .circle-big2 svg {
@@ -1244,7 +1256,7 @@ footer {
 
   .circle-big3 {
     max-width: 100%;
-    margin: 100px 0px 25px 730px;
+    margin: 30px 0px 25px 660px;
   }
 
   .circle-big3 svg {
@@ -1292,7 +1304,7 @@ footer {
 
   .circle-big4 {
     max-width: 100%;
-    margin: 100px 0px 25px 1010px;
+    margin: 30px 0px 25px 900px;
   }
 
   .circle-big4 svg {
@@ -1361,12 +1373,12 @@ footer {
 
   .formations {
     color: var(--color-text);
-    margin-left: 300px;
+    margin-left: 240px;
     font-size: 30px;
   }
 
   .formations h1 {
-    margin-left: -150px;
+    margin-left: -90px;
   }
 
   .formations p {
