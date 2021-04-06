@@ -867,7 +867,7 @@ textarea {
 
 input[type="submit"] {
   background-color: #303030;
-  color: var(--color-text);
+  color: white;
   padding: 12px 20px;
   border: none;
   border-radius: 22px;
@@ -932,6 +932,10 @@ footer {
 }
 
 @media screen and (min-width: 900px) {
+  html {
+    scroll-behavior: smooth;
+  }
+
   header {
     background-color: rgb(145, 143, 143);
     width: 100%;
