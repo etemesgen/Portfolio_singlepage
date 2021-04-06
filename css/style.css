@@ -191,9 +191,9 @@ header {
 
 .para {
   font-family: "Montserrat", sans-serif;
-  font-size: 30px;
+  font-size: 25px;
   margin-top: 100px;
-  margin-left: 40px;
+  margin-left: 20px;
   font-weight: bold;
   color: var(--color-text);
 }
@@ -204,7 +204,7 @@ strong {
 
 .me {
   font-size: 20px;
-  margin: 30px 0px 0px 200px;
+  margin: 30px 0px 0px 150px;
 }
 
 button {
@@ -291,7 +291,7 @@ button a {
   border: 0px solid;
   border-radius: 50%;
   line-height: 25px;
-  margin-left: 75px;
+  margin-left: 45px;
   margin-top: 50px;
   width: 300px;
   height: 300px;
@@ -299,17 +299,17 @@ button a {
 
 .linkedin img {
   max-width: 100%;
-  width: 30px;
+  width: 35px;
   margin-top: 40px;
-  margin-left: 200px;
+  margin-left: 140px;
   border: 0px solid;
   border-radius: 3px;
 }
 
 .github img {
   max-width: 100%;
-  width: 30px;
-  margin: -33.5px 0px 34px 270px;
+  width: 35px;
+  margin: -39px 0px 40px 200px;
   border: 0px solid;
   border-radius: 3px;
   max-width: 80%;
@@ -330,7 +330,7 @@ button a {
 #hr1 {
   max-width: 100%;
   margin-top: 40px;
-  margin-left: 130px;
+  margin-left: 100px;
   width: 50%;
 }
 
@@ -377,14 +377,13 @@ button a {
 }
 
 #cv {
-  margin-left: 15px;
-  font-size: 27px;
+  font-size: 25px;
   color: var(--color-text);
 }
 
 #cv h1 {
   margin-top: -100px;
-  margin-left: 80px;
+  margin-left: 50px;
 }
 
 /* Bounce In */
@@ -411,7 +410,7 @@ button a {
 }
 
 .chart img {
-  margin: -60px 0px 0px 180px;
+  margin: -60px 0px 0px 85px;
   max-width: 100%;
   width: 120px;
 }
@@ -421,7 +420,7 @@ button a {
 }
 
 .chart2 img {
-  margin: 140px 0px 0px 180px;
+  margin: 100px 0px 10px 85px;
   max-width: 100%;
   width: 120px;
 }
@@ -431,7 +430,7 @@ button a {
 }
 
 .chart3 img {
-  margin: 140px 0px 0px 180px;
+  margin: 140px 0px 0px 85px;
   max-width: 100%;
   width: 120px;
 }
@@ -441,7 +440,7 @@ button a {
 }
 
 .chart4 img {
-  margin: 140px 0px 0px 160px;
+  margin: 140px 0px 0px 81px;
   max-width: 100%;
   width: 150px;
 }
@@ -453,7 +452,7 @@ button a {
   position: absolute;
   width: 114px;
   height: 114px;
-  margin: -710px auto 25px 250px;
+  margin: -710px auto 25px 190px;
 }
 
 .circle-big svg {
@@ -503,7 +502,7 @@ button a {
   position: absolute;
   width: 114px;
   height: 114px;
-  margin: -450px auto 25px 250px;
+  margin: -470px auto 25px 190px;
 }
 
 .circle-big2 svg {
@@ -553,7 +552,7 @@ button a {
   position: absolute;
   width: 114px;
   height: 114px;
-  margin: -225px auto 25px 250px;
+  margin: -225px auto 25px 190px;
 }
 
 .circle-big3 svg {
@@ -603,7 +602,7 @@ button a {
   position: absolute;
   width: 114px;
   height: 114px;
-  margin: -10px auto 25px 250px;
+  margin: 0px auto 25px 190px;
 }
 
 .circle-big4 svg {
@@ -664,7 +663,7 @@ button a {
 #projetimg img {
   max-width: 100%;
   width: 300px;
-  margin: 50px 0px 0px 70px;
+  margin: 50px 0px 0px 45px;
 }
 
 .formations {
@@ -713,7 +712,7 @@ button a {
 #hr3 {
   max-width: 100%;
   margin-top: 40px;
-  margin-left: 130px;
+  margin-left: 100px;
   width: 50%;
 }
 
@@ -733,7 +732,7 @@ button a {
 }
 
 #curiosite img {
-  margin: 30px 0px 0px 115px;
+  margin: 30px 0px 0px 70px;
   max-width: 100%;
   width: 200px;
   border-radius: 5px;
@@ -758,7 +757,7 @@ button a {
 
 #creativite img {
   max-width: 100%;
-  margin: 0px 0px 0px 80px;
+  margin: 0px 0px 0px 35px;
 }
 
 #concept {
@@ -811,6 +810,7 @@ button a {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   width: 35%;
   margin: auto;
+  font-weight: bold;
 }
 
 .wordpress p {
@@ -832,13 +832,13 @@ button a {
 #hr5 {
   max-width: 100%;
   margin-top: 40px;
-  margin-left: 130px;
+  margin-left: 90px;
   width: 50%;
 }
 
 #contact h1 {
   display: inline-block;
-  margin: 50px 0px 0px 120px;
+  margin: 50px 0px 0px 60px;
   font-size: 35px;
 }
 
@@ -864,7 +864,7 @@ input[type="submit"] {
   border: none;
   border-radius: 22px;
   cursor: pointer;
-  margin-left: 80px;
+  margin-left: 50px;
 }
 
 input[type="submit"]:hover {
@@ -1497,13 +1497,13 @@ footer {
   .wordpress img {
     max-width: 100%;
     display: inline-block;
-    margin: 0px 0px 0px -700px;
+    margin: 0px 0px 0px -600px;
   }
 
   .wordpress p {
     font-weight: bold;
     font-size: 25px;
-    margin: 0px 0px 0px 80px;
+    margin: 0px 0px 0px 115px;
   }
 
   .hcj img {
@@ -1515,19 +1515,19 @@ footer {
   .hcj p {
     font-weight: bold;
     font-size: 25px;
-    margin: -800px 0px 0px 800px;
+    margin: -800px 0px 0px 770px;
   }
 
   .hcjpm img {
     max-width: 100%;
     display: inline-block;
-    margin: 0px 0px 0px -700px;
+    margin: 0px 0px 0px -600px;
   }
 
   .hcjpm p {
     font-weight: bold;
     font-size: 25px;
-    margin: 0px 0px 0px 80px;
+    margin: 0px 0px 0px 115px;
   }
 
   #hr5 {
