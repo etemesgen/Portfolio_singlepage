@@ -917,13 +917,9 @@ footer {
   z-index: 99;
   border: none;
   outline: none;
-  background-color: var(--bg-panel);
+  background-color: transparent;
   cursor: pointer;
   width: 50px;
-}
-
-#myBtn:hover {
-  background-color: #555;
 }
 
 #coeur {
@@ -932,10 +928,6 @@ footer {
 }
 
 @media screen and (min-width: 900px) {
-  html {
-    scroll-behavior: smooth;
-  }
-
   header {
     background-color: rgb(145, 143, 143);
     width: 100%;
@@ -1619,13 +1611,9 @@ footer {
     z-index: 99;
     border: none;
     outline: none;
-    background-color: var(--bg-panel);
+    background-color: transparent;
     cursor: pointer;
     width: 50px;
-  }
-
-  #myBtn:hover {
-    background-color: #555;
   }
 
   #coeur {
