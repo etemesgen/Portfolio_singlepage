@@ -191,7 +191,7 @@ header {
 
 .para {
   font-family: "Montserrat", sans-serif;
-  font-size: 25px;
+  font-size: 23px;
   margin-top: 100px;
   margin-left: 20px;
   font-weight: bold;
@@ -344,24 +344,32 @@ button a {
   margin-top: 20px;
 }
 
+#profil h1 {
+  margin-left: -15px;
+}
+
 .profil_desc {
   text-align: center;
   margin-left: 20px;
   margin-top: 40px;
-  font-size: 22px;
+  font-size: 20px;
   color: var(--color-text);
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
 }
 
+.profil_desc p {
+  margin-left: -20px;
+}
+
 .img1 img {
   max-width: 100%;
-  width: 40%;
-  margin: 28px 0px 0px 150px;
+  width: 50%;
+  margin: 28px 0px 0px 90px;
 }
 
 .hobbies {
-  margin: 30px 0px 0px 90px;
+  text-align: center;
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
   font-weight: 50px;
@@ -372,7 +380,7 @@ button a {
 #hr2 {
   max-width: 100%;
   margin-top: 40px;
-  margin-left: 130px;
+  margin-left: 100px;
   width: 50%;
 }
 
@@ -663,7 +671,7 @@ button a {
 #projetimg img {
   max-width: 100%;
   width: 300px;
-  margin: 50px 0px 0px 45px;
+  margin: 50px 0px 0px 47px;
 }
 
 .formations {
@@ -757,7 +765,7 @@ button a {
 
 #creativite img {
   max-width: 100%;
-  margin: 0px 0px 0px 35px;
+  margin: 0px 0px 0px 38px;
 }
 
 #concept {
@@ -782,7 +790,7 @@ button a {
 #hr4 {
   max-width: 100%;
   margin-top: 40px;
-  margin-left: 130px;
+  margin-left: 90px;
   width: 50%;
 }
 
