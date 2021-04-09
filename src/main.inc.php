@@ -116,6 +116,10 @@
                        mettre en place un robot <br> qui suit une ligne pour une compétition.</p> <br>
             <p>• Réalisation d’un robot permettant de filmer <br> et envoyer les données sur internet.</p>
         </section>
+
+        <section id="projetimg">
+          <img src="./asset/projet.gif" alt="gif"/>
+        </section>
    
         <section class="formations">
          <h1 class="hvr-underline-from-center"><strong>Mes</strong> formations</h1>
