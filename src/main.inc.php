@@ -172,7 +172,7 @@
           <h1 class="hvr-underline-from-center">P<strong>ortfolio</strong></h1>
           <section class="wordpress">
              <a href="https://www.cnfpformations.fr/wordpress/" target="_blank"><img src="./asset/cnfp.PNG" alt="cnfp" loading="lazy"></a>
-             <p>Wordpress <i class="fab fa-wordpress"></i></p>
+             <p>Wordpress <i class="fab fa-wordpress"></i>, Html <i class="fab fa-html5"></i>, CSS <i class="fab fa-css3-alt"></i></p>
           </section>
            
           <section class="hcj">
@@ -183,6 +183,21 @@
           <section class="hcjpm">
              <a href="https://github.com/etemesgen/PPE_France_Montagnes_Dynamique" target="_blank"><img src="./asset/FranceMontagne.PNG" alt="francemontagne" loading="lazy"></a>
              <p>HTML <i class="fab fa-html5"></i>, CSS <i class="fab fa-css3-alt"></i>, JavaScript <i class="fab fa-js-square"></i>, PHP <i class="fab fa-php"></i>, mySQL <i class="fas fa-database"></i></p>
+          </section>
+
+          <section class="hcjpm1">
+             <a href="https://github.com/etemesgen/PPE2_Gmail_single_page-back-end" target="_blank"><img src="./asset/gmail.jpg" alt="gmail" loading="lazy"/></a>
+             <p>HTML <i class="fab fa-html5"></i>, CSS <i class="fab fa-css3-alt"></i>, JavaScript <i class="fab fa-js-square"></i>, PHP <i class="fab fa-php"></i>, mySQL <i class="fas fa-database"></i></p>
+          </section>
+
+          <section class="java">
+             <a href="https://github.com/etemesgen/personnel" target="_blank"><img src="./asset/Gestion Personnel.png" alt="gestion personnel" loading="lazy"/></a>
+             <p>Java <i class="fab fa-java"></i></p>
+          </section>
+
+          <section class="hcp">
+             <a href="https://github.com/etemesgen/Interface_admin_gestion_client" target="_blank" ><img src="./asset/Interface admin gestion client.png" alt="gestion client" loading="lazy"></a>
+             <p>Html <i class="fab fa-html5"></i>, CSS <i class="fab fa-css3-alt"></i>, PHP <i class="fab fa-php"></i></p>
           </section>
       </div>
 

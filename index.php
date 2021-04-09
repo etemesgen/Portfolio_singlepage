@@ -38,13 +38,10 @@
     </nav>
    </section> 
   </header>
-
-      
         <?php
            include_once("./src/main.inc.php");
         ?>
-    
-
+        
 <?php
     include_once('./src/footer.inc.php');
 ?>

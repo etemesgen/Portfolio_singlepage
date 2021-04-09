@@ -837,16 +837,28 @@ button a {
   margin-top: 30px;
 }
 
+.hcjpm1 {
+  margin-top: 30px;
+}
+
+.java {
+  margin-top: 30px;
+}
+
+.hcp {
+  margin-top: 30px;
+}
+
 #hr5 {
   max-width: 100%;
   margin-top: 40px;
-  margin-left: 90px;
+  margin-left: 118px;
   width: 50%;
 }
 
 #contact h1 {
   display: inline-block;
-  margin: 50px 0px 0px 60px;
+  margin: 50px 0px 0px 100px;
   font-size: 35px;
 }
 
@@ -872,7 +884,7 @@ input[type="submit"] {
   border: none;
   border-radius: 22px;
   cursor: pointer;
-  margin-left: 50px;
+  margin-left: 80px;
 }
 
 input[type="submit"]:hover {
@@ -1532,6 +1544,45 @@ footer {
     font-weight: bold;
     font-size: 25px;
     margin: 0px 0px 0px 115px;
+  }
+
+  .hcjpm1 img {
+    position: absolute;
+    max-width: 100%;
+    height: 275px;
+    display: inline-block;
+    margin: -370px 0px 0px 60px;
+  }
+
+  .hcjpm1 p {
+    position: absolute;
+    font-weight: bold;
+    font-size: 25px;
+    margin: -90px 0px 0px 770px;
+  }
+
+  .java img {
+    max-width: 100%;
+    display: inline-block;
+    margin: 0px 0px 0px -600px;
+  }
+
+  .java p {
+    font-weight: bold;
+    font-size: 25px;
+    margin: 0px 0px 0px 115px;
+  }
+
+  .hcp img {
+    max-width: 100%;
+    display: inline-block;
+    margin: -350px 0px 800px 700px;
+  }
+
+  .hcp p {
+    font-weight: bold;
+    font-size: 25px;
+    margin: -800px 0px 0px 770px;
   }
 
   #hr5 {
