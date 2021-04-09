@@ -11,11 +11,11 @@
 </section>
 
 <section class="linkedin">
-    <a href="https://www.linkedin.com/in/edomiyas-temesgen-16ba01173/" class="blur" target="_blank"><figure><img src="./asset/linkedIn.png" alt="linkedin" loading="lazy"></figure></a>
+    <a href="https://www.linkedin.com/in/edomiyas-temesgen-16ba01173/" class="blur" target="_blank" rel="noopener"><figure><img src="./asset/linkedIn.png" alt="linkedin" loading="lazy"></figure></a>
 </section>
 
 <section class="github">
-    <a href="https://github.com/etemesgen" class="blur" target="_blank"><figure><img src="./asset/GitHub2.jpg" alt="github" loading="lazy"></figure></a>
+    <a href="https://github.com/etemesgen" class="blur" target="_blank" rel="noopener"><figure><img src="./asset/GitHub2.jpg" alt="github" loading="lazy"></figure></a>
 </section>
 
     <section id="hr1">
@@ -108,7 +108,7 @@
       
          <section class="projet">
             <h1 class="hvr-underline-from-center"><strong>Mes</strong> projets</h1> <br><br>
-            <p>• Création du site web <a href="https://www.cnfpformations.fr/wordpress/" target="_blank" style= "color: var(--color-text);">
+            <p>• Création du site web <a href="https://www.cnfpformations.fr/wordpress/" target="_blank" rel="noopener" style= "color: var(--color-text);">
              cnfpformations.fr</a>
             </p> <br>
             <p>• Le Gamel Trophy, <br>
@@ -175,32 +175,32 @@
         <section id="portfolio"></section>
           <h1 class="hvr-underline-from-center">P<strong>ortfolio</strong></h1>
           <section class="wordpress">
-             <a href="https://www.cnfpformations.fr/wordpress/" target="_blank"><img src="./asset/cnfp.PNG" alt="cnfp" loading="lazy"></a>
+             <a href="https://www.cnfpformations.fr/wordpress/" target="_blank" rel="noopener"><img src="./asset/cnfp.PNG" alt="cnfp" loading="lazy"></a>
              <p>Wordpress <i class="fab fa-wordpress"></i>, Html <i class="fab fa-html5"></i>, CSS <i class="fab fa-css3-alt"></i></p>
           </section>
            
           <section class="hcj">
-             <a href="https://time-display-edo.netlify.app/" target="_blank" ><img src="./asset/timeDisplay.PNG" alt="timeDisplay" loading="lazy"></a>
+             <a href="https://time-display-edo.netlify.app/" target="_blank" rel="noopener"><img src="./asset/timeDisplay.PNG" alt="timeDisplay" loading="lazy"></a>
              <p>Html <i class="fab fa-html5"></i>, CSS <i class="fab fa-css3-alt"></i>, JavaScript <i class="fab fa-js-square"></i></p>
           </section>
 
           <section class="hcjpm">
-             <a href="https://github.com/etemesgen/PPE_France_Montagnes_Dynamique" target="_blank"><img src="./asset/FranceMontagne.PNG" alt="francemontagne" loading="lazy"></a>
+             <a href="https://github.com/etemesgen/PPE_France_Montagnes_Dynamique" target="_blank" rel="noopener"><img src="./asset/FranceMontagne.PNG" alt="francemontagne" loading="lazy"></a>
              <p>HTML <i class="fab fa-html5"></i>, CSS <i class="fab fa-css3-alt"></i>, JavaScript <i class="fab fa-js-square"></i>, PHP <i class="fab fa-php"></i>, mySQL <i class="fas fa-database"></i></p>
           </section>
 
           <section class="hcjpm1">
-             <a href="https://github.com/etemesgen/PPE2_Gmail_single_page-back-end" target="_blank"><img src="./asset/gmail.jpg" alt="gmail" loading="lazy"/></a>
+             <a href="https://github.com/etemesgen/PPE2_Gmail_single_page-back-end" target="_blank" rel="noopener"><img src="./asset/gmail.jpg" alt="gmail" loading="lazy"/></a>
              <p>HTML <i class="fab fa-html5"></i>, CSS <i class="fab fa-css3-alt"></i>, JavaScript <i class="fab fa-js-square"></i>, PHP <i class="fab fa-php"></i>, mySQL <i class="fas fa-database"></i></p>
           </section>
 
           <section class="java">
-             <a href="https://github.com/etemesgen/personnel" target="_blank"><img src="./asset/Gestion Personnel.png" alt="gestion personnel" loading="lazy"/></a>
+             <a href="https://github.com/etemesgen/personnel" target="_blank" rel="noopener"><img src="./asset/Gestion Personnel.png" alt="gestion personnel" loading="lazy"/></a>
              <p>Java <i class="fab fa-java"></i></p>
           </section>
 
           <section class="hcp">
-             <a href="https://github.com/etemesgen/Interface_admin_gestion_client" target="_blank" ><img src="./asset/Interface admin gestion client.png" alt="gestion client" loading="lazy"></a>
+             <a href="https://github.com/etemesgen/Interface_admin_gestion_client" target="_blank" rel="noopener"><img src="./asset/Interface admin gestion client.png" alt="gestion client" loading="lazy"></a>
              <p>Html <i class="fab fa-html5"></i>, CSS <i class="fab fa-css3-alt"></i>, PHP <i class="fab fa-php"></i></p>
           </section>
       </div>
