@@ -1585,6 +1585,11 @@ footer {
     margin: -800px 0px 0px 770px;
   }
 
+  .hcp a {
+    margin: 0;
+    padding: 0;
+  }
+
   #hr5 {
     max-width: 100%;
     margin: 40px 0px 0px 350px;
@@ -1651,7 +1656,7 @@ footer {
     font-weight: bold;
     font-size: 18px;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 90px;
   }
 
   #myBtn {
