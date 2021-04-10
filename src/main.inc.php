@@ -68,6 +68,7 @@
     <section class="chart2"><img src="./asset/css.png" alt="css" loading="lazy"></section>
     <section class="chart3"><img src="./asset/php.png" alt="php" loading="lazy"></section>
     <section class="chart4"><img src="./asset/mysql.png" alt="mysql" loading="lazy"></section>
+    <section class="chart5"><img src="./asset/java.png" alt="java" loading="lazy" /></section>
 
     <div class="circle-big">
      <div class="text">70%</div>

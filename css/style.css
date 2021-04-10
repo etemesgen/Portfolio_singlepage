@@ -453,6 +453,16 @@ button a {
   width: 150px;
 }
 
+.chart5 {
+  color: #b9afaf;
+}
+
+.chart5 img {
+  margin: 140px 0px 0px 81px;
+  max-width: 100%;
+  width: 150px;
+}
+
 /*Skill circle bars*/
 @import url(https://fonts.googleapis.co/css?family=montserrat:600,400,300);
 
@@ -460,7 +470,7 @@ button a {
   position: absolute;
   width: 114px;
   height: 114px;
-  margin: -710px auto 25px 190px;
+  margin: -960px auto 25px 190px;
 }
 
 .circle-big svg {
@@ -510,7 +520,7 @@ button a {
   position: absolute;
   width: 114px;
   height: 114px;
-  margin: -470px auto 25px 190px;
+  margin: -730px auto 25px 190px;
 }
 
 .circle-big2 svg {
@@ -560,7 +570,7 @@ button a {
   position: absolute;
   width: 114px;
   height: 114px;
-  margin: -225px auto 25px 190px;
+  margin: -490px auto 25px 190px;
 }
 
 .circle-big3 svg {
@@ -610,7 +620,7 @@ button a {
   position: absolute;
   width: 114px;
   height: 114px;
-  margin: 0px auto 25px 190px;
+  margin: -250px auto 25px 190px;
 }
 
 .circle-big4 svg {
@@ -637,6 +647,56 @@ button a {
 }
 
 .circle-big4 .text4 {
+  position: absolute;
+  width: 100%;
+  top: 37px;
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+  line-height: 22px;
+  font-family: "Montserrat", sans-serif;
+}
+
+@keyframes big4 {
+  from {
+    stroke-dashoffset: 326.56;
+  }
+  to {
+    stroke-dashoffset: 200;
+  }
+}
+
+.circle-big5 {
+  position: absolute;
+  width: 114px;
+  height: 114px;
+  margin: 0px auto 25px 190px;
+}
+
+.circle-big5 svg {
+  width: 114px;
+  height: 114px;
+}
+
+.circle-big5 .bg4 {
+  fill: none;
+  stroke-width: 10px;
+  stroke: #343035;
+}
+
+.circle-big5 .progress4 {
+  fill: none;
+  stroke-width: 10px;
+  stroke: #d48e24;
+  stroke-linecap: round;
+  stroke-dasharray: 326.56;
+  stroke-dashoffset: 200;
+  transform: rotate(-90deg);
+  transform-origin: 50% 50%;
+  animation: big 1.5s ease-in-out;
+}
+
+.circle-big5 .text4 {
   position: absolute;
   width: 100%;
   top: 37px;
@@ -1138,7 +1198,7 @@ footer {
 
   .chart img {
     max-width: 100%;
-    margin: -50px 0px 0px 200px;
+    margin: -50px 0px 0px 130px;
   }
 
   .chart2 {
@@ -1148,7 +1208,7 @@ footer {
 
   .chart2 img {
     max-width: 100%;
-    margin: -50px 0px 0px 100px;
+    margin: -50px 0px 0px 125px;
   }
 
   .chart3 {
@@ -1171,12 +1231,22 @@ footer {
     margin: 0px 0px 15px 105px;
   }
 
+  .chart5 {
+    display: inline-block;
+    color: #e9961b;
+  }
+
+  .chart5 img {
+    width: 150px;
+    max-width: 100%;
+    margin: 0px 30px 15px 90px;
+  }
   /*Skill circle bars*/
   @import url(https://fonts.googleapis.co/css?family=montserrat:600,400,300);
 
   .circle-big {
     max-width: 100%;
-    margin: 30px 0px 25px 200px;
+    margin: 30px 0px 25px 135px;
   }
 
   .circle-big svg {
@@ -1224,7 +1294,7 @@ footer {
 
   .circle-big2 {
     max-width: 100%;
-    margin: 30px 0px 25px 425px;
+    margin: 30px 0px 25px 370px;
   }
 
   .circle-big2 svg {
@@ -1272,7 +1342,7 @@ footer {
 
   .circle-big3 {
     max-width: 100%;
-    margin: 30px 0px 25px 660px;
+    margin: 30px 0px 25px 620px;
   }
 
   .circle-big3 svg {
@@ -1320,7 +1390,7 @@ footer {
 
   .circle-big4 {
     max-width: 100%;
-    margin: 30px 0px 25px 900px;
+    margin: 30px 0px 25px 860px;
   }
 
   .circle-big4 svg {
@@ -1363,6 +1433,54 @@ footer {
     }
     to {
       stroke-dashoffset: 200;
+    }
+  }
+
+  .circle-big5 {
+    max-width: 100%;
+    margin: 30px 0px 25px 1100px;
+  }
+
+  .circle-big5 svg {
+    width: 114px;
+    height: 114px;
+  }
+
+  .circle-big5 .bg4 {
+    fill: none;
+    stroke-width: 10px;
+    stroke: #343035;
+  }
+
+  .circle-big5 .progress4 {
+    fill: none;
+    stroke-width: 10px;
+    stroke: #d48e24;
+    stroke-linecap: round;
+    stroke-dasharray: 326.56;
+    stroke-dashoffset: 235;
+    transform: rotate(-90deg);
+    transform-origin: 50% 50%;
+    animation: big 1.5s ease-in-out;
+  }
+
+  .circle-big5 .text4 {
+    position: absolute;
+    width: 100%;
+    top: 37px;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 22px;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  @keyframes big4 {
+    from {
+      stroke-dashoffset: 326.56;
+    }
+    to {
+      stroke-dashoffset: 235;
     }
   }
 
