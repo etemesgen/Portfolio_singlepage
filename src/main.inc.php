@@ -201,7 +201,7 @@
           </section>
 
           <section class="hcp">
-             <a href="https://github.com/etemesgen/Interface_admin_gestion_client" target="_blank" rel="noopener"><img src="./asset/Interface admin gestion client.png" alt="gestion client" loading="lazy"></a>
+             <a href="https://github.com/etemesgen/Interface_admin_gestion_client" target="_blank" rel="noopener"><img src="./asset/Interfaceadmingestionclient.png" alt="gestion client" loading="lazy"></a>
              <p>Html <i class="fab fa-html5"></i>, CSS <i class="fab fa-css3-alt"></i>, PHP <i class="fab fa-php"></i></p>
           </section>
       </div>
@@ -215,7 +215,7 @@
       </section> 
       
       <div class="container">
-        <form action="<?php echo $_SERVER['PHP_SELF'] ?>" method="POST">
+        <form action="https://formsubmit.co/temesgen.edomiyas@yahoo.com" method="POST">
             <input type="text" id="fname" name="firstname" placeholder="Votre prénom...">
               <br>
             <input type="text" id="lname" name="lastname" placeholder="Votre nom...">
