@@ -3,41 +3,41 @@
 ?>
 
 <body>
-<header>
-   <section id="colorblack"> 
-    <section class="toggle-container">
-        <input type="checkbox" id="switch" name="theme" /><label for="switch">Toggle</label>
-    </section>
+    <header>
+      <section id="colorblack">
+        <section class="toggle-container">
+          <input type="checkbox" id="switch" name="theme" /><label for="switch">Toggle</label>
+        </section>
 
-    <section class="logo">
-     <img src="./asset/Edomiyas_logo.PNG" width="120px" alt="logo" loading="lazy">
-    </section>
+        <section class="logo">
+          <img src="./asset/Edomiyas_logo.PNG" alt="logo" loading="lazy">
+        </section>
 
-    <nav class="navbar">
-        <span class="navbar-toggle" id="js-navbar-toggle">
+        <nav class="navbar">
+          <span class="navbar-toggle" id="js-navbar-toggle">
             <i class="fa fa-bars"></i>
-        </span>
+          </span>
 
-        <ul class="main-nav" id="js-menu">
+          <ul class="main-nav" id="js-menu">
             <li>
-                <a href="#" class="nav-links">ACCUEIL</a>
+              <a href="#" class="nav-links">ACCUEIL</a>
             </li>
             <li>
-                <a href="#cv" class="nav-links">CIRRICULUM VITAE</a>
+              <a href="#cv" class="nav-links">CIRRICULUM VITAE</a>
             </li>
             <li>
-                <a href="#ccc" class="nav-links">CCC</a>
+              <a href="#ccc" class="nav-links">CCC</a>
             </li>
             <li>
               <a href="#portfolio" class="nav-links">PORTFOLIO</a>
             </li>
             <li>
-                <a href="#contactez_moi" class="nav-links">CONTACT</a>
+              <a href="#contactez_moi" class="nav-links">CONTACT</a>
             </li>
-        </ul>
-    </nav>
-   </section> 
-  </header>
+          </ul>
+        </nav>
+      </section>
+    </header>
         <?php
            include_once("./src/main.inc.php");
         ?>

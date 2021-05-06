@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
 /*reset*/
 * {
   margin: 0;
@@ -32,9 +34,9 @@ html {
 .hvr-underline-from-center {
   display: inline-block;
   vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transform: perspective(.1rem) translateZ(0);
+  transform: perspective(.1rem) translateZ(0);
+  box-shadow: 0 0 .1rem rgba(0, 0, 0, 0);
   position: relative;
   overflow: hidden;
 }
@@ -46,7 +48,7 @@ html {
   right: 51%;
   bottom: 0;
   background: #f8b891;
-  height: 2px;
+  height: .2rem;
   -webkit-transition-property: left, right;
   transition-property: left, right;
   -webkit-transition-duration: 0.3s;
@@ -77,25 +79,25 @@ input[type="checkbox"] {
 label {
   cursor: pointer;
   text-indent: -9999px;
-  width: 52px;
-  height: 27px;
+  width: 5.2rem;
+  height: 2.7rem;
   background: #ebe1f7;
   float: right;
-  border-radius: 100px;
+  border-radius: 10rem;
   position: absolute;
-  margin-left: 210px;
-  margin-top: 60px;
+  margin-left: 21rem;
+  margin-top: 6rem;
 }
 
 label:after {
   content: "";
   position: absolute;
-  top: 3px;
-  left: 3px;
-  width: 20px;
-  height: 20px;
+  top: .3rem;
+  left: .3rem;
+  width: 2rem;
+  height: 2rem;
   background: #f8b891;
-  border-radius: 90px;
+  border-radius: 9rem;
   transition: 0.3s;
 }
 
@@ -104,12 +106,12 @@ input:checked + label {
 }
 
 input:checked + label:after {
-  left: calc(100% - 5px);
+  left: calc(100% - .5rem);
   transform: translateX(-100%);
 }
 
 label:active:after {
-  width: 45px;
+  width: 4.5rem;
 }
 
 html.transition,
@@ -130,15 +132,14 @@ header {
 }
 
 .logo img {
-  margin-top: 0px;
-  margin-left: 30px;
-  border-radius: 5px;
+  margin-left: 3rem;
+  border-radius: .5rem;
 }
 
 .navbar {
-  font-size: 22px;
+  font-size: 2.2rem;
   background-image: var(--bg-panel);
-  padding-bottom: 10px;
+  padding-bottom: 1rem;
   margin: auto;
 }
 
@@ -161,23 +162,27 @@ header {
 
 .main-nav li {
   text-align: center;
-  margin: 15px auto;
+  margin: 1.5rem auto;
 }
 
 .logo {
   display: inline-block;
-  margin-top: 10px;
-  margin-left: 20px;
-  border-radius: 5px;
+  margin-top: 1rem;
+  margin-left: 2rem;
+  border-radius: 0.5rem;
+}
+
+.logo img{
+  width: 10rem;
 }
 
 .navbar-toggle {
   position: absolute;
-  top: 50px;
-  right: 20px;
+  top: 5rem;
+  right: 2rem;
   cursor: pointer;
   color: #f8b891;
-  font-size: 40px;
+  font-size: 4rem;
 }
 
 .logo:hover,
@@ -191,226 +196,113 @@ header {
 
 .para {
   font-family: "Montserrat", sans-serif;
-  font-size: 23px;
-  margin-top: 100px;
-  margin-left: 20px;
+  font-size: 2.3rem;
+  margin-top: 10rem;
+  margin-left: 2rem;
   font-weight: bold;
   color: var(--color-text);
 }
 
 strong {
-  color: #885199;
-}
-
-.me {
-  font-size: 20px;
-  margin: 30px 0px 0px 150px;
-}
-
-button {
-  width: 100px;
-  padding: 10px;
-  border: 2px solid grey;
-  border-radius: 10px;
-  background-color: grey;
-}
-
-button a {
   color: #f8b891;
-  text-decoration: none;
-  font-size: 25px;
-  text-align: center;
-  font-family: "Montserrat", sans-serif;
-  font-weight: bold;
-}
-
-.me span {
-  color: var(--bg-panel);
-  font-size: 25px;
-  font-family: "Montserrat", sans-serif;
-  font-weight: bold;
-}
-
-.hvr-float-shadow {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  position: relative;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-}
-.hvr-float-shadow:before {
-  pointer-events: none;
-  position: absolute;
-  z-index: -1;
-  content: "";
-  top: 100%;
-  left: 5%;
-  height: 10px;
-  width: 90%;
-  opacity: 0;
-  background: -webkit-radial-gradient(
-    center,
-    ellipse,
-    rgba(0, 0, 0, 0.35) 0%,
-    rgba(0, 0, 0, 0) 80%
-  );
-  background: radial-gradient(
-    ellipse at center,
-    rgba(0, 0, 0, 0.35) 0%,
-    rgba(0, 0, 0, 0) 80%
-  );
-  /* W3C */
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-property: transform, opacity;
-  transition-property: transform, opacity;
-}
-.hvr-float-shadow:hover,
-.hvr-float-shadow:focus,
-.hvr-float-shadow:active {
-  -webkit-transform: translateY(-5px);
-  transform: translateY(-5px);
-  /* move the element up by 5px */
-}
-.hvr-float-shadow:hover:before,
-.hvr-float-shadow:focus:before,
-.hvr-float-shadow:active:before {
-  opacity: 1;
-  -webkit-transform: translateY(5px);
-  transform: translateY(5px);
-  /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
 }
 
 .photo img {
   max-width: 100%;
-  border: 0px solid;
+  border: 0rem solid;
   border-radius: 50%;
-  line-height: 25px;
-  margin-left: 45px;
-  margin-top: 50px;
-  width: 300px;
-  height: 300px;
+  line-height: 2.5rem;
+  margin-left: 4.5rem;
+  margin-top: 5rem;
+  width: 30rem;
+  height: 30rem;
 }
 
-.linkedin img {
+#arrow img {
   max-width: 100%;
-  width: 35px;
-  margin-top: 40px;
-  margin-left: 140px;
-  border: 0px solid;
-  border-radius: 3px;
+  margin-top: 7rem;
+  margin-left: 15rem;
+  width: 8rem;
 }
 
-.github img {
-  max-width: 100%;
-  width: 35px;
-  margin: -39px 0px 40px 200px;
-  border: 0px solid;
-  border-radius: 3px;
-  max-width: 80%;
+/* Sink */
+.hvr-sink {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(0.1rem) translateZ(0);
+  transform: perspective(0.1rem) translateZ(0);
+  box-shadow: 0 0 0.1rem rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
 }
-
-/* Blur */
-.blur figure img {
-  -webkit-filter: blur(3px);
-  filter: grayscale(100%);
-  -webkit-transition: 0.3s ease-in-out;
-  transition: 0.3s ease-in-out;
-}
-.blur figure:hover img {
-  -webkit-filter: blur(0);
-  filter: rgb(84, 84, 196);
-}
-
-#hr1 {
-  max-width: 100%;
-  margin-top: 40px;
-  margin-left: 100px;
-  width: 50%;
+.hvr-sink:hover,
+.hvr-sink:focus,
+.hvr-sink:active {
+  -webkit-transform: translateY(0.8rem);
+  transform: translateY(0.8rem);
 }
 
 #profil {
   text-align: center;
-  margin-left: 30px;
-  font-size: 25px;
+  margin-left: 3rem;
+  font-size: 2rem;
   color: var(--color-text);
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
-  margin-top: 20px;
+  margin-top: 2rem;
 }
 
 #profil h1 {
-  margin-left: -15px;
+  margin-left: -1.5rem;
 }
 
 .profil_desc {
   text-align: center;
-  margin-left: 20px;
-  margin-top: 40px;
-  font-size: 20px;
+  margin-left: 2rem;
+  margin-top: 4rem;
+  font-size: 1.8rem;
   color: var(--color-text);
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
 }
 
 .profil_desc p {
-  margin-left: -20px;
+  margin-left: -2rem;
 }
 
 .img1 img {
   max-width: 100%;
   width: 50%;
-  margin: 28px 0px 0px 90px;
+  margin: 2.8rem 0rem 0rem 11rem;
 }
 
 .hobbies {
   text-align: center;
   font-family: "Montserrat", sans-serif;
-  font-size: 18px;
-  font-weight: 50px;
+  font-size: 1.8rem;
   color: var(--color-text);
   font-weight: bold;
 }
 
 #hr2 {
   max-width: 100%;
-  margin-top: 40px;
-  margin-left: 100px;
+  margin-top: 4rem;
+  margin-left: 10rem;
   width: 50%;
 }
 
 #cv {
-  font-size: 25px;
+  font-size: 2rem;
   color: var(--color-text);
 }
 
 #cv h1 {
-  margin-top: -100px;
-  margin-left: 50px;
-}
-
-/* Bounce In */
-.hvr-bounce-in {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  -webkit-transition-duration: 0.5s;
-  transition-duration: 0.5s;
-}
-.hvr-bounce-in:hover,
-.hvr-bounce-in:focus,
-.hvr-bounce-in:active {
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
-  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
-  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  margin-top: 5rem;
+  margin-left: 11rem;
 }
 
 .chart {
@@ -418,9 +310,9 @@ button a {
 }
 
 .chart img {
-  margin: -60px 0px 0px 85px;
+  margin: 4rem 0rem 0rem 8.5rem;
   max-width: 100%;
-  width: 120px;
+  width: 11rem;
 }
 
 .chart2 {
@@ -428,9 +320,9 @@ button a {
 }
 
 .chart2 img {
-  margin: 100px 0px 10px 85px;
+  margin: 10rem 0rem 10rem 8.5rem;
   max-width: 100%;
-  width: 120px;
+  width: 11rem;
 }
 
 .chart3 {
@@ -438,9 +330,9 @@ button a {
 }
 
 .chart3 img {
-  margin: 140px 0px 0px 85px;
+  margin: 2rem 0rem 10rem 8.5rem;
   max-width: 100%;
-  width: 120px;
+  width: 11rem;
 }
 
 .chart4 {
@@ -448,9 +340,9 @@ button a {
 }
 
 .chart4 img {
-  margin: 140px 0px 0px 81px;
+  margin: 2rem 0rem 10rem 8rem;
   max-width: 100%;
-  width: 150px;
+  width: 14rem;
 }
 
 .chart5 {
@@ -458,35 +350,44 @@ button a {
 }
 
 .chart5 img {
-  margin: 140px 0px 0px 81px;
+  margin: 0rem 0rem 10rem 8.5rem;
   max-width: 100%;
-  width: 150px;
+  width: 14rem;
 }
 
+.chart6{
+  color: #f0db4f;
+}
+
+.chart6 img {
+  margin: 4rem 0rem 10rem 10rem;
+  max-width: 100%;
+  width: 11rem;
+}
 /*Skill circle bars*/
 @import url(https://fonts.googleapis.co/css?family=montserrat:600,400,300);
 
 .circle-big {
   position: absolute;
-  width: 114px;
-  height: 114px;
-  margin: -960px auto 25px 190px;
+  width: 11.4rem;
+  height: 11.4rem;
+  margin: -119rem 0rem 2.5rem 19rem;
 }
 
 .circle-big svg {
-  width: 114px;
-  height: 114px;
+  width: 11.4rem;
+  height: 11.4rem;
 }
 
 .circle-big .bg {
   fill: none;
-  stroke-width: 10px;
+  stroke-width: 1rem;
   stroke: #343035;
 }
 
 .circle-big .progress {
   fill: none;
-  stroke-width: 10px;
+  stroke-width: 1rem;
   stroke: #d48e24;
   stroke-linecap: round;
   stroke-dasharray: 326.56;
@@ -499,11 +400,11 @@ button a {
 .circle-big .text {
   position: absolute;
   width: 100%;
-  top: 37px;
-  font-size: 24px;
+  top: 3.7rem;
+  font-size: 2.4rem;
   text-align: center;
   font-weight: bold;
-  line-height: 22px;
+  line-height: 2.2rem;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -518,25 +419,25 @@ button a {
 
 .circle-big2 {
   position: absolute;
-  width: 114px;
-  height: 114px;
-  margin: -730px auto 25px 190px;
+  width: 11.4rem;
+  height: 11.4rem;
+  margin: -97rem 0rem 2.5rem 19rem;
 }
 
 .circle-big2 svg {
-  width: 114px;
-  height: 114px;
+  width: 11.4rem;
+  height: 11.4rem;
 }
 
 .circle-big2 .bg2 {
   fill: none;
-  stroke-width: 10px;
+  stroke-width: 1rem;
   stroke: #343035;
 }
 
 .circle-big2 .progress2 {
   fill: none;
-  stroke-width: 10px;
+  stroke-width: 1rem;
   stroke: #d48e24;
   stroke-linecap: round;
   stroke-dasharray: 326.56;
@@ -549,11 +450,11 @@ button a {
 .circle-big2 .text2 {
   position: absolute;
   width: 100%;
-  top: 37px;
-  font-size: 24px;
+  top: 3.7rem;
+  font-size: 2.4rem;
   text-align: center;
   font-weight: bold;
-  line-height: 22px;
+  line-height: 2.2rem;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -568,25 +469,25 @@ button a {
 
 .circle-big3 {
   position: absolute;
-  width: 114px;
-  height: 114px;
-  margin: -490px auto 25px 190px;
+  width: 11.4rem;
+  height: 11.4rem;
+  margin: -77rem 0rem 2.5rem 19rem;
 }
 
 .circle-big3 svg {
-  width: 114px;
-  height: 114px;
+  width: 11.4rem;
+  height: 11.4rem;
 }
 
 .circle-big3 .bg3 {
   fill: none;
-  stroke-width: 10px;
+  stroke-width: 1rem;
   stroke: #343035;
 }
 
 .circle-big3 .progress3 {
   fill: none;
-  stroke-width: 10px;
+  stroke-width: 1rem;
   stroke: #d48e24;
   stroke-linecap: round;
   stroke-dasharray: 326.56;
@@ -599,8 +500,8 @@ button a {
 .circle-big3 .text3 {
   position: absolute;
   width: 100%;
-  top: 37px;
-  font-size: 24px;
+  top: 3.7rem;
+  font-size: 2.4rem;
   text-align: center;
   font-weight: bold;
   line-height: 22px;
@@ -618,25 +519,25 @@ button a {
 
 .circle-big4 {
   position: absolute;
-  width: 114px;
-  height: 114px;
-  margin: -250px auto 25px 190px;
+  width: 11.4rem;
+  height: 11.4rem;
+  margin: -56rem auto 2.5rem 19rem;
 }
 
 .circle-big4 svg {
-  width: 114px;
-  height: 114px;
+  width: 11.4rem;
+  height: 11.4rem;
 }
 
 .circle-big4 .bg4 {
   fill: none;
-  stroke-width: 10px;
+  stroke-width: 1rem;
   stroke: #343035;
 }
 
 .circle-big4 .progress4 {
   fill: none;
-  stroke-width: 10px;
+  stroke-width: 1rem;
   stroke: #d48e24;
   stroke-linecap: round;
   stroke-dasharray: 326.56;
@@ -649,11 +550,11 @@ button a {
 .circle-big4 .text4 {
   position: absolute;
   width: 100%;
-  top: 37px;
-  font-size: 24px;
+  top: 3.7rem;
+  font-size: 2.4rem;
   text-align: center;
   font-weight: bold;
-  line-height: 22px;
+  line-height: 2.2rem;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -668,23 +569,73 @@ button a {
 
 .circle-big5 {
   position: absolute;
-  width: 114px;
-  height: 114px;
-  margin: 0px auto 25px 190px;
+  width: 11.4rem;
+  height: 11.4rem;
+  margin: -35rem 0rem 2.5rem 19rem;
 }
 
 .circle-big5 svg {
+  width: 11.4rem;
+  height: 11.4rem;
+}
+
+.circle-big5 .bg4 {
+  fill: none;
+  stroke-width: 1rem;
+  stroke: #343035;
+}
+
+.circle-big5 .progress4 {
+  fill: none;
+  stroke-width: 1rem;
+  stroke: #d48e24;
+  stroke-linecap: round;
+  stroke-dasharray: 326.56;
+  stroke-dashoffset: 200;
+  transform: rotate(-90deg);
+  transform-origin: 50% 50%;
+  animation: big 1.5s ease-in-out;
+}
+
+.circle-big5 .text4 {
+  position: absolute;
+  width: 100%;
+  top: 3.7rem;
+  font-size: 2.4rem;
+  text-align: center;
+  font-weight: bold;
+  line-height: 2.2rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+@keyframes big4 {
+  from {
+    stroke-dashoffset: 326.56;
+  }
+  to {
+    stroke-dashoffset: 200;
+  }
+}
+
+.circle-big6 {
+  position: absolute;
+  width: 11.4rem;
+  height: 11.4rem;
+  margin: -8rem 0rem 0rem 19rem;
+}
+
+.circle-big6 svg {
   width: 114px;
   height: 114px;
 }
 
-.circle-big5 .bg4 {
+.circle-big6 .bg4 {
   fill: none;
   stroke-width: 10px;
   stroke: #343035;
 }
 
-.circle-big5 .progress4 {
+.circle-big6 .progress4 {
   fill: none;
   stroke-width: 10px;
   stroke: #d48e24;
@@ -696,7 +647,7 @@ button a {
   animation: big 1.5s ease-in-out;
 }
 
-.circle-big5 .text4 {
+.circle-big6 .text4 {
   position: absolute;
   width: 100%;
   top: 37px;
@@ -716,108 +667,96 @@ button a {
   }
 }
 
-.projet {
-  color: var(--color-text);
-  margin-left: 100px;
-  font-size: 25px;
-  margin-top: 180px;
-}
-
-.projet p {
-  font-size: 20px;
-  margin-left: -50px;
-}
-
-#projetimg img {
-  max-width: 100%;
-  width: 300px;
-  margin: 50px 0px 0px 47px;
-}
-
 .formations {
   color: var(--color-text);
-  margin-left: 100px;
-  font-size: 25px;
-  margin-top: 80px;
+  margin-left: 10rem;
+  font-size: 2rem;
+  margin-top: 8rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.formations img{
+  max-width: 100%;
+  width: 10rem;
 }
 
 .formations p {
-  font-size: 20px;
+  font-size: 2rem;
 }
 
 .date {
-  margin: 70px 0px 0px -90px;
+  margin: 7rem 0rem 0rem -9rem;
 }
 
 .formation {
-  margin: -73px 0px 0px 160px;
+  margin: -7.3rem 0rem 0rem 16rem;
 }
 
 .date2 {
-  margin: 0px 0px 0px -90px;
+  margin: 0rem 0rem 0rem -9rem;
 }
 
 .formation2 {
-  margin: -72px 0px 0px 160px;
+  margin: -7.2rem 0rem 0rem 16rem;
 }
 
 .date3 {
-  margin: 0px 0px 0px -90px;
+  margin: 0rem 0rem 0rem -9rem;
 }
 
 .formation3 {
-  margin: -70px 0px 0px 160px;
+  margin: -7rem 0rem 0rem 16rem;
 }
 
 .date4 {
-  margin: 20px 0px 0px -90px;
+  margin: 2rem 0rem 0rem -9rem;
 }
 
 .formation4 {
-  margin: -70px 0px 0px 160px;
+  margin: -7rem 0rem 0rem 16rem;
 }
 
 #hr3 {
   max-width: 100%;
-  margin-top: 40px;
-  margin-left: 100px;
+  margin-top: 4rem;
+  margin-left: 10rem;
   width: 50%;
 }
 
 #curiosite {
-  margin-top: 10px;
-  margin-left: 20px;
-  font-size: 35px;
+  margin-top: 1rem;
+  margin-left: 2rem;
+  font-size: 3.5rem;
   color: var(--color-text);
 }
 
 #curiosite p {
-  margin: 20px 0px 0px 0px;
-  font-size: 22px;
+  margin: 2rem 0rem 0rem 0rem;
+  font-size: 2.2rem;
   color: var(--color-text);
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
 }
 
 #curiosite img {
-  margin: 30px 0px 0px 70px;
+  margin: 3rem 0rem 0rem 12rem;
   max-width: 100%;
-  width: 200px;
-  border-radius: 5px;
+  width: 20rem;
+  border-radius: 0.5rem;
 }
 
 #creativite {
-  font-size: 35px;
+  font-size: 3.5rem;
   color: var(--color-text);
 }
 
 #creativite h1 {
-  margin: 20px 0px 0px 20px;
+  margin: 2rem 0rem 0rem 2rem;
 }
 
 #creativite p {
-  margin: 20px 0px 0px 20px;
-  font-size: 22px;
+  margin: 2rem 0rem 0rem 2rem;
+  font-size: 2.2rem;
   color: var(--color-text);
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
@@ -825,18 +764,18 @@ button a {
 
 #creativite img {
   max-width: 100%;
-  margin: 0px 0px 0px 38px;
+  margin: 0rem 0rem 0rem 9rem;
 }
 
 #concept {
-  margin: 20px 0px 0px 20px;
-  font-size: 35px;
+  margin: 2rem 0rem 0rem 2rem;
+  font-size: 3.5rem;
   color: var(--color-text);
 }
 
 #concept p {
-  margin: 20px 0px 0px 0px;
-  font-size: 22px;
+  margin: 2rem 0rem 0rem 0rem;
+  font-size: 2.2rem;
   color: var(--color-text);
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
@@ -844,107 +783,122 @@ button a {
 
 #concept img {
   max-width: 100%;
-  width: 500px;
+  width: 50rem;
+  margin: 0rem 0rem 0rem -1rem;
 }
 
 #hr4 {
   max-width: 100%;
-  margin-top: 40px;
-  margin-left: 90px;
+  margin-top: 4rem;
+  margin-left: 12rem;
   width: 50%;
 }
 
 .portfolio {
-  margin: 170px 0px 0px 0px;
+  margin: 15rem 0rem 0rem 0rem;
   text-align: center;
   display: inline-block;
 }
 
 .portfolio h1 {
-  margin: -150px 0px 0px 0px;
-  font-size: 40px;
+  margin: -15rem 0rem 0rem 0rem;
+  font-size: 3rem;
 }
 
 .portfolio img {
   max-width: 100%;
   display: inline-block;
-  width: 600px;
-  border-radius: 10px;
+  width: 60rem;
+  border-radius: 1rem;
 }
 
 .portfolio p {
   color: var(--color-text);
   background-color: var(--bg-panel);
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 0.4rem 0.8rem 0 rgba(0, 0, 0, 0.2), 0 0.6rem 2rem 0 rgba(0, 0, 0, 0.19);
   width: 35%;
   margin: auto;
   font-weight: bold;
 }
 
 .wordpress p {
-  margin-top: -5px;
+  margin-top: -0.5rem;
 }
 
 .hcj {
-  margin-top: 30px;
+  margin-top: 3rem;
 }
 
 .hcj p {
-  margin-top: -4px;
+  margin-top: -0.4rem;
 }
 
 .hcjpm {
-  margin-top: 30px;
+  margin-top: 3rem;
 }
 
 .hcjpm1 {
-  margin-top: 30px;
+  margin-top: 3rem;
 }
 
 .java {
-  margin-top: 30px;
+  margin-top: 3rem;
 }
 
 .hcp {
-  margin-top: 30px;
+  margin-top: 3rem;
 }
 
 #hr5 {
   max-width: 100%;
-  margin-top: 40px;
-  margin-left: 118px;
+  margin-top: 4rem;
+  margin-left: 11.8rem;
   width: 50%;
 }
 
 #contact h1 {
   display: inline-block;
-  margin: 50px 0px 0px 100px;
-  font-size: 35px;
+  margin: 5rem 0rem 0rem 10rem;
+  font-size: 3.5rem;
 }
 
 input[type="text"],
-select,
-textarea {
+select {
   width: 70%;
-  padding: 12px;
-  border: 1px solid grey;
-  border-radius: 22px;
+  padding: 1.2rem;
+  border: 0.1rem solid grey;
+  border-radius: 2.2rem;
   box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
+  margin-top: 0.6rem;
+  margin-bottom: 1.6rem;
   resize: vertical;
   font-style: italic;
   font-weight: bold;
 }
 
+textarea{
+  max-width: 100%;
+  width: 70%;
+  padding: 1.2rem;
+  border: 0.1rem solid grey;
+  border-radius: 2.2rem;
+  box-sizing: border-box;
+  margin-top: 0.6rem;
+  margin-bottom: 1.6rem;
+  resize: vertical;
+  font-style: italic;
+  font-weight: bold;
+  height: 18rem;
+}
+
 input[type="submit"] {
   background-color: #303030;
   color: white;
-  padding: 12px 20px;
+  padding: 1.2rem 2rem;
   border: none;
-  border-radius: 22px;
+  border-radius: 2.2rem;
   cursor: pointer;
-  margin-left: 80px;
+  margin-left: 8rem;
 }
 
 input[type="submit"]:hover {
@@ -966,37 +920,55 @@ input[type="submit"]:hover {
 }
 
 .container {
-  border-radius: 5px;
+  border-radius: 0.5rem;
   background-color: var(--bg-panel);
-  padding: 20px;
+  padding: 2rem;
   margin-left: 17%;
-  margin-top: 40px;
+  margin-top: 4rem;
 }
 
-footer {
+footer p{
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 1.8rem;
   text-align: center;
-  margin-top: 20px;
+  margin-top: -3rem;
 }
 
 #myBtn {
   max-width: 100%;
   position: fixed;
-  bottom: 10px;
-  right: 30px;
+  bottom: 3rem;
+  right: 3rem;
   z-index: 99;
   border: none;
   outline: none;
   background-color: transparent;
   cursor: pointer;
-  width: 50px;
+  width: 3rem;
+}
+
+.linkedin img {
+  max-width: 100%;
+  width: 3.5rem;
+  margin-top: 4rem;
+  margin-left: 18rem;
+  border: 0px solid;
+  border-radius: 0.3rem;
+}
+
+.github img {
+  max-width: 100%;
+  width: 3.2rem;
+  margin: -3.8rem 0rem 4rem 23rem;
+  border: 0px solid;
+  border-radius: 0.3rem;
+  max-width: 80%;
 }
 
 #coeur {
   color: #f7a673;
-  font-size: 25px;
+  font-size: 2.5rem;
 }
 
 @media screen and (min-width: 900px) {
@@ -1018,12 +990,12 @@ footer {
 
   .navbar ul {
     max-width: 100%;
-    margin: -100px 0px 0px 500px;
+    margin: -10rem 0rem 0rem 50rem;
   }
 
   .main-nav {
     display: flex;
-    margin-right: 30px;
+    margin-right: 3rem;
     flex-direction: row;
     justify-content: flex-end;
   }
@@ -1033,16 +1005,16 @@ footer {
   }
 
   .nav-links {
-    margin-left: 40px;
+    margin-left: 4rem;
   }
 
   .logo {
-    margin: -20px;
+    margin: -2rem;
     padding: 0;
   }
 
   .logo img {
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
   }
 
   .navbar-toggle {
@@ -1057,107 +1029,61 @@ footer {
   label {
     cursor: pointer;
     text-indent: -9999px;
-    width: 52px;
-    height: 27px;
+    width: 5.2rem;
+    height: 2.7rem;
     background: #ebe1f7;
     float: right;
     border-radius: 100px;
     margin-left: 300px;
-    margin-top: 52px;
+    margin-top: 40px;
   }
 
   .logo img {
-    margin-top: 20px;
-    margin-left: 100px;
-    border-radius: 5px;
+    margin-top: 2rem;
+    margin-left: 10rem;
+    border-radius: 0.5rem;
   }
 
   .para {
     position: absolute;
     font-family: "Montserrat", sans-serif;
-    font-size: 30px;
-    margin-top: 130px;
-    margin-left: 300px;
+    font-size: 3rem;
+    margin-top: 13rem;
+    margin-left: 30rem;
     font-weight: bold;
     color: var(--color-text);
-  }
-
-  .me {
-    position: absolute;
-    margin: 240px 0px 0px 430px;
-  }
-
-  button {
-    max-width: 100%;
-    width: 100px;
-    height: 50px;
-    border: 2px solid grey;
-    border-radius: 10px;
-    background-color: grey;
-  }
-
-  button a {
-    color: #f8b891;
-    text-decoration: none;
-    font-size: 25px;
-    text-align: center;
-    font-family: "Montserrat", sans-serif;
-    font-weight: bold;
-  }
-
-  .me span {
-    color: var(--bg-panel);
-    font-size: 25px;
-    font-family: "Montserrat", sans-serif;
-    font-weight: bold;
   }
 
   .photo {
     max-width: 100%;
-    margin-left: 770px;
+    margin-left: 75rem;
   }
 
   .photo img {
-    margin-top: 40px;
+    margin-top: 4rem;
     border: 0px solid;
     border-radius: 50%;
-    line-height: 25px;
+    line-height: 2.5rem;
   }
 
-  .linkedin img {
+  #arrow img {
     max-width: 100%;
-    width: 40px;
-    margin-top: 50px;
-    margin-left: 600px;
-    border-radius: 3px;
-  }
-
-  .github img {
-    max-width: 100%;
-    position: absolute;
-    width: 39.3px;
-    margin-top: -43px;
-    margin-left: 680px;
-    border-radius: 3px;
-  }
-
-  #hr1 {
-    max-width: 100%;
-    margin-top: 30px;
-    margin-left: 350px;
-    width: 50%;
+    margin-top: 7rem;
+    margin-left: 65rem;
+    width: 8rem;
   }
 
   #profil h1 {
     text-align: center;
-    font-size: 45px;
+    font-size: 3.5rem;
     color: var(--color-text);
     font-family: "Montserrat", sans-serif;
+    margin-top: 2rem;
   }
 
   .profil_desc p {
     text-align: center;
-    font-size: 27px;
+    font-size: 2.2rem;
     color: var(--color-text);
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
@@ -1165,102 +1091,120 @@ footer {
 
   .img1 img {
     max-width: 100%;
-    width: 400px;
-    margin: 50px 0px 0px 500px;
+    width: 30rem;
+    margin: 5rem 0rem 0rem 52rem;
   }
 
   .hobbies p {
-    margin: 50px 0px 0px 50px;
+    margin: 5rem 0rem 0rem 5rem;
     text-align: center;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 2.2rem;
     font-family: "Montserrat", sans-serif;
     color: var(--color-text);
   }
 
   #hr2 {
     max-width: 100%;
-    margin-top: 30px;
-    margin-left: 350px;
+    margin-top: 3rem;
+    margin-left: 35rem;
     width: 50%;
   }
 
   #cv h1 {
-    margin-left: 500px;
-    margin-top: 30px;
+    font-size: 3.5rem;
     color: var(--color-text);
+    font-family: "Montserrat", sans-serif;
+    margin: 5rem 0rem 0rem 50rem;
   }
 
   .chart {
     display: inline-block;
     color: #d64518;
-  }
+}
 
-  .chart img {
+.chart img {
     max-width: 100%;
-    margin: -50px 0px 0px 130px;
-  }
+    width: 12rem;
+    margin: 3rem 0rem 0rem 5rem;
+}
 
-  .chart2 {
+.chart2 {
     display: inline-block;
     color: #1837e6;
-  }
+}
 
-  .chart2 img {
+.chart2 img {
     max-width: 100%;
-    margin: -50px 0px 0px 125px;
-  }
+    width: 12rem;
+    margin: 3rem 0rem 0rem 9rem;
+}
 
-  .chart3 {
+.chart3 {
     display: inline-block;
     color: #5300da;
-  }
+}
 
-  .chart3 img {
+.chart3 img {
     max-width: 100%;
-    margin: 10px 0px 30px 110px;
-  }
+    width: 12rem;
+    margin: 3rem 0rem 2rem 10rem;
+}
 
-  .chart4 {
+.chart4 {
     display: inline-block;
     color: #b9afaf;
-  }
+}
 
-  .chart4 img {
+.chart4 img {
     max-width: 100%;
-    margin: 0px 0px 15px 105px;
-  }
+    width: 14rem;
+    margin: 0rem 0rem 1.5rem 10rem;
+}
 
-  .chart5 {
+.chart5 {
     display: inline-block;
     color: #e9961b;
-  }
+}
 
-  .chart5 img {
-    width: 150px;
+.chart5 img {
     max-width: 100%;
-    margin: 0px 30px 15px 90px;
-  }
-  /*Skill circle bars*/
-  @import url(https://fonts.googleapis.co/css?family=montserrat:600,400,300);
+    width: 14rem;
+    margin: 0rem 3rem 1.5rem 9rem;
+}
+ 
+.chart6 {
+    display: inline-block;
+    color: #e9961b;
+}
 
-  .circle-big {
+.chart6 img {
     max-width: 100%;
-    margin: 30px 0px 25px 135px;
-  }
-
-  .circle-big svg {
+    width: 9rem;
+    margin: 0rem 3rem 1.5rem 8rem;
+}
+/*Skill circle bars*/
+@import url(https://fonts.googleapis.co/css?family=montserrat:600,400,300);
+  
+.circle-big {
+    position: absolute;
+    width: 11.4rem;
+    height: 11.4rem;
+    margin: 4rem 0rem 0rem 5.3rem;
+}
+  
+.circle-big svg {
     width: 114px;
     height: 114px;
-  }
-
-  .circle-big .bg {
+}
+  
+.circle-big .bg {
     fill: none;
     stroke-width: 10px;
     stroke: #343035;
-  }
-
-  .circle-big .progress {
+}
+  
+.circle-big .progress {
     fill: none;
     stroke-width: 10px;
     stroke: #d48e24;
@@ -1270,9 +1214,9 @@ footer {
     transform: rotate(-90deg);
     transform-origin: 50% 50%;
     animation: big 1.5s ease-in-out;
-  }
-
-  .circle-big .text {
+}
+  
+.circle-big .text {
     position: absolute;
     width: 100%;
     top: 37px;
@@ -1281,34 +1225,36 @@ footer {
     font-weight: bold;
     line-height: 22px;
     font-family: "Montserrat", sans-serif;
-  }
-
-  @keyframes big {
+}
+  
+@keyframes big {
     from {
       stroke-dashoffset: 326.56;
     }
     to {
       stroke-dashoffset: 120;
     }
-  }
-
-  .circle-big2 {
-    max-width: 100%;
-    margin: 30px 0px 25px 370px;
-  }
-
-  .circle-big2 svg {
+}
+  
+.circle-big2 {
+    position: absolute;
+    width: 11.4rem;
+    height: 11.4rem;
+    margin: 4rem 0rem 0rem 27rem;
+}
+  
+.circle-big2 svg {
     width: 114px;
     height: 114px;
-  }
-
-  .circle-big2 .bg2 {
+}
+  
+.circle-big2 .bg2 {
     fill: none;
     stroke-width: 10px;
     stroke: #343035;
-  }
-
-  .circle-big2 .progress2 {
+}
+  
+.circle-big2 .progress2 {
     fill: none;
     stroke-width: 10px;
     stroke: #d48e24;
@@ -1318,9 +1264,9 @@ footer {
     transform: rotate(-90deg);
     transform-origin: 50% 50%;
     animation: big 1.5s ease-in-out;
-  }
-
-  .circle-big2 .text2 {
+}
+  
+.circle-big2 .text2 {
     position: absolute;
     width: 100%;
     top: 37px;
@@ -1329,34 +1275,36 @@ footer {
     font-weight: bold;
     line-height: 22px;
     font-family: "Montserrat", sans-serif;
-  }
-
-  @keyframes big2 {
+}
+  
+@keyframes big2 {
     from {
       stroke-dashoffset: 326.56;
     }
     to {
       stroke-dashoffset: 200;
     }
-  }
-
-  .circle-big3 {
-    max-width: 100%;
-    margin: 30px 0px 25px 620px;
-  }
-
-  .circle-big3 svg {
+}
+  
+.circle-big3 {
+    position: absolute;
+    width: 11.4rem;
+    height: 11.4rem;
+    margin: 4rem 0rem 0rem 49.5rem;
+}
+  
+.circle-big3 svg {
     width: 114px;
     height: 114px;
-  }
-
-  .circle-big3 .bg3 {
+}
+  
+.circle-big3 .bg3 {
     fill: none;
     stroke-width: 10px;
     stroke: #343035;
-  }
-
-  .circle-big3 .progress3 {
+}
+  
+.circle-big3 .progress3 {
     fill: none;
     stroke-width: 10px;
     stroke: #d48e24;
@@ -1366,9 +1314,9 @@ footer {
     transform: rotate(-90deg);
     transform-origin: 50% 50%;
     animation: big 1.5s ease-in-out;
-  }
-
-  .circle-big3 .text3 {
+}
+  
+.circle-big3 .text3 {
     position: absolute;
     width: 100%;
     top: 37px;
@@ -1377,34 +1325,36 @@ footer {
     font-weight: bold;
     line-height: 22px;
     font-family: "Montserrat", sans-serif;
-  }
-
-  @keyframes big3 {
+}
+  
+@keyframes big3 {
     from {
       stroke-dashoffset: 326.56;
     }
     to {
       stroke-dashoffset: 235;
     }
-  }
-
-  .circle-big4 {
-    max-width: 100%;
-    margin: 30px 0px 25px 860px;
-  }
-
+}
+  
+.circle-big4 {
+    position: absolute;
+    width: 11.4rem;
+    height: 11.4rem;
+    margin: 4rem 0rem 0rem 73rem;
+}
+  
   .circle-big4 svg {
     width: 114px;
     height: 114px;
-  }
-
-  .circle-big4 .bg4 {
+}
+  
+.circle-big4 .bg4 {
     fill: none;
     stroke-width: 10px;
     stroke: #343035;
-  }
-
-  .circle-big4 .progress4 {
+}
+  
+.circle-big4 .progress4 {
     fill: none;
     stroke-width: 10px;
     stroke: #d48e24;
@@ -1414,9 +1364,9 @@ footer {
     transform: rotate(-90deg);
     transform-origin: 50% 50%;
     animation: big 1.5s ease-in-out;
-  }
-
-  .circle-big4 .text4 {
+}
+  
+.circle-big4 .text4 {
     position: absolute;
     width: 100%;
     top: 37px;
@@ -1425,46 +1375,48 @@ footer {
     font-weight: bold;
     line-height: 22px;
     font-family: "Montserrat", sans-serif;
-  }
-
-  @keyframes big4 {
+}
+  
+@keyframes big4 {
     from {
       stroke-dashoffset: 326.56;
     }
     to {
       stroke-dashoffset: 200;
     }
-  }
-
-  .circle-big5 {
-    max-width: 100%;
-    margin: 30px 0px 25px 1100px;
-  }
-
-  .circle-big5 svg {
+}
+  
+.circle-big5 {
+    position: absolute;
+    width: 11.4rem;
+    height: 11.4rem;
+    margin: 4rem 0rem 0rem 96rem;
+}
+  
+.circle-big5 svg {
     width: 114px;
     height: 114px;
-  }
-
-  .circle-big5 .bg4 {
+}
+  
+.circle-big5 .bg4 {
     fill: none;
     stroke-width: 10px;
     stroke: #343035;
-  }
-
-  .circle-big5 .progress4 {
+}
+  
+.circle-big5 .progress4 {
     fill: none;
     stroke-width: 10px;
     stroke: #d48e24;
     stroke-linecap: round;
     stroke-dasharray: 326.56;
-    stroke-dashoffset: 235;
+    stroke-dashoffset: 200;
     transform: rotate(-90deg);
     transform-origin: 50% 50%;
     animation: big 1.5s ease-in-out;
-  }
-
-  .circle-big5 .text4 {
+}
+  
+.circle-big5 .text4 {
     position: absolute;
     width: 100%;
     top: 37px;
@@ -1473,98 +1425,130 @@ footer {
     font-weight: bold;
     line-height: 22px;
     font-family: "Montserrat", sans-serif;
-  }
-
-  @keyframes big4 {
+}
+  
+@keyframes big4 {
     from {
       stroke-dashoffset: 326.56;
     }
     to {
-      stroke-dashoffset: 235;
+      stroke-dashoffset: 200;
     }
-  }
-
-  .projet {
-    color: var(--color-text);
-    margin-left: 190px;
-    font-size: 30px;
-    margin-top: 300px;
-  }
-
-  .projet h1 {
-    margin-left: -40px;
-  }
-
-  .projet p {
-    font-size: 20px;
-  }
-
-  #projetimg img {
-    max-width: 100%;
-    width: 300px;
-    margin: -250px 0px 0px 850px;
-  }
+}
+  
+.circle-big6 {
+    position: absolute;
+    width: 11.4rem;
+    height: 11.4rem;
+    margin: 4rem 0rem 0rem 119rem;
+}
+  
+.circle-big6 svg {
+    width: 114px;
+    height: 114px;
+}
+  
+.circle-big6 .bg4 {
+    fill: none;
+    stroke-width: 10px;
+    stroke: #343035;
+}
+  
+.circle-big6 .progress4 {
+    fill: none;
+    stroke-width: 10px;
+    stroke: #d48e24;
+    stroke-linecap: round;
+    stroke-dasharray: 326.56;
+    stroke-dashoffset: 200;
+    transform: rotate(-90deg);
+    transform-origin: 50% 50%;
+    animation: big 1.5s ease-in-out;
+}
+  
+.circle-big6 .text4 {
+    position: absolute;
+    width: 100%;
+    top: 37px;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 22px;
+    font-family: "Montserrat", sans-serif;
+}
+  
+@keyframes big4 {
+    from {
+      stroke-dashoffset: 326.56;
+    }
+    to {
+      stroke-dashoffset: 200;
+    }
+}
 
   .formations {
     color: var(--color-text);
-    margin-left: 240px;
-    font-size: 30px;
+    margin-left: 10rem;
+    font-size: 2.5rem;
+    margin-top: 18rem;
   }
 
-  .formations h1 {
-    margin-left: -90px;
+  .formations img{
+    max-width: 100%;
+    width: 12rem;
+    margin-top: 4rem;
   }
-
+  
   .formations p {
-    font-size: 20px;
+    font-size: 2rem;
   }
-
+  
   .date {
-    margin: 20px 0px 0px -100px;
+    margin: 4rem 0rem 0rem -7rem;
   }
-
+  
   .formation {
-    margin: -70px 0px 0px 160px;
+    margin: -7rem 0rem 0rem 16rem;
   }
-
+  
   .date2 {
-    margin: 0px 0px 0px -100px;
+    margin: 0rem 0rem 0rem -7rem;
   }
-
+  
   .formation2 {
-    margin: -60px 0px 0px 160px;
+    margin: -7rem 0rem 0rem 16rem;
   }
-
+  
   .date3 {
-    margin: 0px 0px 0px -100px;
+    margin: 5rem 0rem 0rem -7rem;
   }
-
+  
   .formation3 {
-    margin: -70px 0px 0px 160px;
+    margin: -7rem 0rem 0rem 16rem;
   }
-
+  
   .date4 {
-    margin: 20px 0px 0px -100px;
-  }
-
+    margin: 2rem 0rem 0rem -7rem;
+  } 
+  
   .formation4 {
-    margin: -50px 0px 0px 160px;
+    margin: -7rem 0rem 0rem 16rem;
   }
 
   #hr3 {
     max-width: 100%;
-    margin: 40px 0px 0px 400px;
+    margin: 4rem 0rem 0rem 40rem;
   }
 
   #curiosite {
-    margin: 50px 0px 0px 80px;
-    font-size: 40px;
+    margin: 5rem 0rem 0rem 8rem;
+    font-size: 4rem;
     color: var(--color-text);
   }
 
   #curiosite p {
-    margin: 20px 0px 0px 70px;
-    font-size: 30px;
+    margin: 2rem 0rem 0rem 7rem;
+    font-size: 3rem;
     color: var(--color-text);
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
@@ -1572,19 +1556,19 @@ footer {
 
   #curiosite img {
     max-width: 100%;
-    margin: 30px 0px 0px 500px;
-    border-radius: 5px;
+    margin: 3rem 0rem 0rem 50rem;
+    border-radius: 0.5rem;
   }
 
   #creativite {
-    margin: 50px 0px 0px 60px;
-    font-size: 40px;
+    margin: 5rem 0rem 0rem 6rem;
+    font-size: 4rem;
     color: var(--color-text);
   }
 
   #creativite p {
-    margin: 20px 0px 0px 70px;
-    font-size: 30px;
+    margin: 2rem 0rem 0rem 7rem;
+    font-size: 3rem;
     color: var(--color-text);
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
@@ -1592,18 +1576,18 @@ footer {
 
   #creativite img {
     max-width: 100%;
-    margin: 0px 0px 0px 450px;
+    margin: 0rem 0rem 0rem 45rem;
   }
 
   #concept {
-    margin: 50px 0px 0px 85px;
-    font-size: 40px;
+    margin: 5rem 0rem 0rem 8.5rem;
+    font-size: 4rem;
     color: var(--color-text);
   }
 
   #concept p {
-    margin: 20px 0px 0px 0px;
-    font-size: 30px;
+    margin: 2rem 0rem 0rem 0rem;
+    font-size: 3rem;
     color: var(--color-text);
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
@@ -1611,12 +1595,12 @@ footer {
 
   #concept img {
     max-width: 100%;
-    margin: 0px 0px 0px 350px;
+    margin: 0rem 0rem 0rem 35rem;
   }
 
   #hr4 {
     max-width: 100%;
-    margin: 40px 0px 0px 350px;
+    margin: 4rem 0rem 0rem 35rem;
   }
 
   .portfolio {
@@ -1625,82 +1609,82 @@ footer {
 
   .portfolio h1 {
     text-align: center;
-    font-size: 40px;
+    font-size: 4rem;
   }
 
   .wordpress img {
     max-width: 100%;
     display: inline-block;
-    margin: 0px 0px 0px -600px;
+    margin: 0rem 0rem 0rem -60rem;
   }
 
   .wordpress p {
     font-weight: bold;
-    font-size: 25px;
-    margin: 0px 0px 0px 115px;
+    font-size: 2.5rem;
+    margin: 0rem 0rem 0rem 11.5rem;
   }
 
   .hcj img {
     max-width: 100%;
     display: inline-block;
-    margin: -350px 0px 800px 700px;
+    margin: -35rem 0rem 80rem 70rem;
   }
 
   .hcj p {
     font-weight: bold;
-    font-size: 25px;
-    margin: -800px 0px 0px 770px;
+    font-size: 2.5rem;
+    margin: -80rem 0rem 0rem 77rem;
   }
 
   .hcjpm img {
     max-width: 100%;
     display: inline-block;
-    margin: 0px 0px 0px -600px;
+    margin: 0rem 0rem 0rem -60rem;
   }
 
   .hcjpm p {
     font-weight: bold;
-    font-size: 25px;
-    margin: 0px 0px 0px 115px;
+    font-size: 2.5rem;
+    margin: 0rem 0rem 0rem 11.5rem;
   }
 
   .hcjpm1 img {
     position: absolute;
     max-width: 100%;
-    height: 275px;
+    height: 27.5rem;
     display: inline-block;
-    margin: -370px 0px 0px 60px;
+    margin: -37rem 0rem 0rem 6rem;
   }
 
   .hcjpm1 p {
     position: absolute;
     font-weight: bold;
     font-size: 25px;
-    margin: -90px 0px 0px 770px;
+    margin: -9rem 0rem 0rem 77rem;
   }
 
   .java img {
     max-width: 100%;
     display: inline-block;
-    margin: 0px 0px 0px -600px;
+    margin: 0rem 0rem 0rem -60rem;
   }
 
   .java p {
     font-weight: bold;
-    font-size: 25px;
-    margin: 0px 0px 0px 115px;
+    font-size: 2.5rem;
+    margin: 0rem 0rem 0rem 11.5rem;
   }
 
   .hcp img {
     max-width: 100%;
     display: inline-block;
-    margin: -350px 0px 800px 700px;
+    margin: -35rem 0rem 80rem 70rem;
   }
 
   .hcp p {
     font-weight: bold;
-    font-size: 25px;
-    margin: -692px 0px 0px 770px;
+    font-size: 2.5rem;
+    margin: -69.2rem 0rem 0rem 77rem;
   }
 
   .hcp a {
@@ -1710,38 +1694,52 @@ footer {
 
   #hr5 {
     max-width: 100%;
-    margin: 40px 0px 0px 350px;
+    margin: 4rem 0rem 0rem 35rem;
   }
 
   #contact h1 {
-    font-size: 40px;
-    margin-left: 500px;
+    font-size: 4rem;
+    margin-left: 50rem;
   }
 
   input[type="text"],
-  select,
-  textarea {
+  select 
+  {
     width: 50%;
-    padding: 12px;
+    padding: 1.2rem;
     border: 1px solid grey;
-    border-radius: 22px;
+    border-radius: 2.2rem;
     box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
+    margin-top: 0.6rem;
+    margin-bottom: 1.6rem;
     resize: vertical;
     font-style: italic;
     font-weight: bold;
   }
 
+  textarea{
+    max-width: 100%;
+    width: 45rem;
+    padding: 1.2rem;
+    height: 18rem;
+    border: 0.1rem solid grey;
+    border-radius: 2.2rem;
+    box-sizing: border-box;
+    margin: .6rem 0rem 1.6rem 0rem;
+    resize: vertical;
+    font-style: italic;
+    font-weight: bold;
+  }
+  
   input[type="submit"] {
     max-width: 100%;
     background-color: #303030;
     color: white;
-    padding: 12px 20px;
+    padding: 1.2rem 2rem;
     border: none;
-    border-radius: 22px;
+    border-radius: 2.2rem;
     cursor: pointer;
-    margin-left: 180px;
+    margin-left: 18rem;
   }
 
   input[type="submit"]:hover {
@@ -1763,31 +1761,43 @@ footer {
   }
 
   .container {
-    border-radius: 5px;
+    border-radius: 0.5rem;
     background-color: var(--bg-panel);
-    padding: 20px;
-    margin-left: 30%;
-  }
-
-  footer {
-    font-family: "Montserrat", sans-serif;
-    font-weight: bold;
-    font-size: 18px;
-    text-align: center;
-    margin-top: 90px;
+    padding: 2rem;
+    margin-left: 40rem;
   }
 
   #myBtn {
     display: none;
     position: fixed;
-    bottom: 6 0px;
-    right: 80px;
+    bottom: 5rem;
+    right: 8rem;
     z-index: 99;
     border: none;
     outline: none;
     background-color: transparent;
     cursor: pointer;
-    width: 50px;
+    width: 5rem;
+  }
+
+  .linkedin a img {
+    max-width: 100%;
+    margin: -2rem 0rem -1rem 3rem;
+  }
+
+  .github a img {
+    max-width: 100%;
+    width: 3.1rem;
+    margin: -2.7rem 0rem 5rem 8rem;
+    border-radius: 3px;
+  }
+
+  footer p{
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 1.8rem;
+    text-align: center;
+    margin-top: -3rem;
   }
 
   #coeur {
