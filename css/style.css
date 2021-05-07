@@ -47,7 +47,7 @@ html {
   left: 51%;
   right: 51%;
   bottom: 0;
-  background: #f8b891;
+  background: #f77322;
   height: .2rem;
   -webkit-transition-property: left, right;
   transition-property: left, right;
@@ -96,7 +96,7 @@ label:after {
   left: .3rem;
   width: 2rem;
   height: 2rem;
-  background: #f8b891;
+  background: #f77322;
   border-radius: 9rem;
   transition: 0.3s;
 }
@@ -181,7 +181,7 @@ header {
   top: 5rem;
   right: 2rem;
   cursor: pointer;
-  color: #f8b891;
+  color: #f77322;
   font-size: 4rem;
 }
 
@@ -204,7 +204,7 @@ header {
 }
 
 strong {
-  color: #f8b891;
+  color: #f77322;
 }
 
 .photo img {
@@ -967,7 +967,7 @@ footer p{
 }
 
 #coeur {
-  color: #f7a673;
+  color: #f77322;
   font-size: 2.5rem;
 }
 
