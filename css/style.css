@@ -47,7 +47,7 @@ html {
   left: 51%;
   right: 51%;
   bottom: 0;
-  background: #f77322;
+  background: #4633D1;
   height: .2rem;
   -webkit-transition-property: left, right;
   transition-property: left, right;
@@ -96,7 +96,7 @@ label:after {
   left: .3rem;
   width: 2rem;
   height: 2rem;
-  background: #f77322;
+  background: #4633D1;
   border-radius: 9rem;
   transition: 0.3s;
 }
@@ -181,7 +181,7 @@ header {
   top: 5rem;
   right: 2rem;
   cursor: pointer;
-  color: #f77322;
+  color: #4633D1;
   font-size: 4rem;
 }
 
@@ -204,7 +204,7 @@ header {
 }
 
 strong {
-  color: #f77322;
+  color: #4633D1;
 }
 
 .photo img {
@@ -902,7 +902,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background-color: #f77322;
+  background-color: #4633D1;
   -webkit-transition: 0.2s ease-out;
   -moz-transition: 0.2s ease-out;
   -o-transition: 0.2s ease-out;
@@ -967,7 +967,7 @@ footer p{
 }
 
 #coeur {
-  color: #f77322;
+  color: #4633D1;
   font-size: 2.5rem;
 }
 
@@ -1743,7 +1743,7 @@ footer p{
   }
 
   input[type="submit"]:hover {
-    background-color: #f77322;
+    background-color: #4633D1;
     -webkit-transition: 0.2s ease-out;
     -moz-transition: 0.2s ease-out;
     -o-transition: 0.2s ease-out;
@@ -1801,7 +1801,7 @@ footer p{
   }
 
   #coeur {
-    color: #f77322;
+    color: #4633D1;
     font-size: 25px;
   }
 }
