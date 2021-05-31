@@ -207,6 +207,13 @@ strong {
   color: #4633D1;
 }
 
+.para a{
+  text-decoration: none;
+  font-size: 2rem;
+  background-color: #ded3eb;
+  color: #4633D1;
+}
+
 .photo img {
   max-width: 100%;
   border: 0rem solid;
@@ -1052,6 +1059,13 @@ footer p{
     margin-left: 30rem;
     font-weight: bold;
     color: var(--color-text);
+  }
+
+  .para a{
+    text-decoration: none;
+    font-size: 2rem;
+    background-color: #ded3eb;
+    color: #4633D1;
   }
 
   .photo {

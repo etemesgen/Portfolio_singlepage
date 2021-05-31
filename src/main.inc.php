@@ -1,6 +1,7 @@
 <main>
     <section class="para">
       <p>Edomiyas Temesgen<br>un passionné de la<strong> Tech</strong> !</p>
+      <a href="./Veille_technologique.pdf" target="_blank">Ma veille technologique >_</a>
     </section>
 
     <section class="photo">
