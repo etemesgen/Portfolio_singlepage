@@ -1819,3 +1819,159 @@ footer p{
     font-size: 25px;
   }
 }
+
+@media screen and (min-width: 1500px) {
+  .navbar{
+    margin-left: 40rem;
+  }
+
+  .main-nav li{
+    margin-left: 2rem;
+  }
+
+  .para{
+    margin-left: 45rem;
+    font-size: 3.8rem;
+  }
+
+  .photo{
+    margin: 5rem 0rem 0rem 100rem;
+  }
+
+  .photo img{
+    width: 40rem;
+    height: 40rem;
+  }
+
+  #arrow img{
+    max-width: 100%;
+    width: 11rem;
+    margin: 14rem 0rem 0rem 90rem;
+  }
+
+  #profil h1{
+    margin-top: 5rem;
+  }
+
+  .img1{
+    max-width: 100%;
+    margin-left: 25rem;
+  }
+
+  .img1 img{
+    width: 35rem;
+    height: 35rem;
+  }
+
+  #hr2{
+    margin-left: 50rem;
+  }
+
+  #cv h1{
+    margin: 14rem 0rem 0rem 80rem;
+  }
+
+  .chart{
+    margin-left: 20rem;
+  }
+
+  .chart2{
+    margin-left: 5rem;
+  }
+
+  .chart3{
+    margin-left: 5rem;
+  }
+
+  .chart4{
+    margin-left: 3rem;
+  }
+
+  .chart5{
+    margin-left: 3rem;
+  }
+
+  .chart6{
+    margin-left: 3rem;
+  }
+
+  .circle-big{
+    margin-left: 25rem;
+  }
+
+  .circle-big2{
+    margin-left: 52rem;
+  }
+
+  .circle-big3{
+    margin-left: 79rem;
+  }
+
+  .circle-big4{
+    margin-left: 106rem;
+  }
+
+  .circle-big5{
+    margin-left: 132.5rem;
+  }
+
+  .circle-big6{
+    margin-left: 158rem;
+  }
+
+  .formations{
+    margin-left: 25rem;
+  }
+
+  #hr3{
+    margin-left: 50rem;
+  }
+
+  #ccc{
+    margin-left: 25rem;
+  }
+
+  #curiosite h1{
+    margin-left: 50rem;
+  }
+
+  #creativite h1{
+    margin-left: 50rem;
+  }
+
+  #creativite p{
+    margin-left: 10rem;
+  }
+
+  #concept h1{
+    margin-left: 50rem;
+  }
+
+  #concept p{
+    margin-left: 8rem;
+  }
+
+  #hr4{
+    margin-left: 50rem;
+  }
+
+  .portfolio{
+    margin-left: 30rem;
+  }
+
+  #hr5{
+    margin-left: 50rem;
+  }
+
+  #contact h1{
+    margin-left: 80rem;
+  }
+
+  .container{
+    margin-left: 70rem;
+  }
+
+  #fname, #lname{
+    width: 45rem;
+  }
+}

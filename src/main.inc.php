@@ -186,7 +186,6 @@
     </section>
 
     <div class="portfolio" role="article">
-      <section id="portfolio"></section>
       <h1 class="hvr-underline-from-center">P<strong>ortfolio</strong></h1>
 
       <section class="wordpress">
